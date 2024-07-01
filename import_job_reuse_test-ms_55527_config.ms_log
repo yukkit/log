@@ -1,0 +1,635 @@
+I20240701 06:04:10.591156 668949 base_catalog.h:88] Restoring catalog from previous data
+I20240701 06:04:10.610109 668949 flavius_worker.cc:65] Start Worker: MasterComputeManagerWorker, thread cnt: 1, interval: 200
+I20240701 06:04:10.613375 668983 etcd_election_client.cc:100] 1129268340489098 StartElection 
+I20240701 06:04:10.613456 668983 etcd_based_election_manager.h:50] electtion callback : start watch
+I20240701 06:04:10.613472 668983 etcd_catalog_metadata_watcher.h:38] Start to watch metadata changes from etcd
+I20240701 06:04:10.621848 668983 election_util.h:104] Start WatchLeaderSysTimeWorker
+I20240701 06:04:10.622206 668983 flavius_worker.cc:65] Start Worker: WatchLeaderTimeWorker, thread cnt: 1, interval: 600
+E20240701 06:04:10.622248 668983 election_util.h:221] UpdateLeaderSysTimeWorker is not running.
+I20240701 06:04:10.623466 668983 etcd_election_client.cc:119] I am not leader, acquiring new lease
+I20240701 06:04:10.624738 668983 etcd_election_client.cc:145] id: 127.0.0.1:55527 campaign for leader.
+I20240701 06:04:10.631400 668949 server.cpp:1127] Server[flavius::server::MetaServiceImpl] is serving on port=55527.
+I20240701 06:04:10.631464 668949 server.cpp:1130] Check out http://920f477ca690:55527 in web browser.
+W20240701 06:04:10.631856 668949 controller.cpp:1514] SIGINT was installed with 1
+I20240701 06:04:11.985190 668985 etcd_catalog_metadata_watcher.h:94] Update graphs from etcd
+I20240701 06:04:11.989253 668986 etcd_catalog_metadata_watcher.h:109] Update vertex tables from etcd
+I20240701 06:04:12.301627 668988 etcd_catalog_metadata_watcher.h:139] Update job manager meta from etcd
+I20240701 06:04:12.301680 668988 etcd_catalog_metadata_watcher.h:143] job manager meta str is : {"graph_name_to_job_ids_map":{"g1":[0,1,2,3,4,5,6]},"job_id_to_graph_name_map":[[6,"g1"],[4,"g1"],[2,"g1"],[0,"g1"],[1,"g1"],[3,"g1"],[5,"g1"]],"job_id_to_ns_map":[[6,{"levels_":["test","ns"]}],[4,{"levels_":["test","ns"]}],[2,{"levels_":["test","ns"]}],[0,{"levels_":["test","ns"]}],[1,{"levels_":["test","ns"]}],[3,{"levels_":["test","ns"]}],[5,{"levels_":["test","ns"]}]],"job_status":[[6,"pending"],[4,"finished"],[2,"failed"],[0,"finished"],[1,"failed"],[3,"finished"],[5,"finished"]],"job_type_map":[[6,"import_vertex_job"],[4,"import_vertex_job"],[2,"import_vertex_job"],[0,"import_vertex_job"],[1,"import_vertex_job"],[3,"import_vertex_job"],[5,"import_vertex_job"]],"label_to_job_ids_map":{"job_reuse_label_0":[0],"job_reuse_label_1":[1],"job_reuse_label_2":[2],"job_reuse_label_3":[3],"job_reuse_label_4":[4],"job_reuse_label_5":[5],"job_reuse_label_6":[6]},"last_assign_job_id":7,"last_assign_task_id":84,"ns_to_job_ids_map":[[{"levels_":["test","ns"]},[0,1,2,3,4,5,6]]],"task_id_to_job_id_map":[[77,6],[51,4],[50,4],[49,4],[48,4],[3,0],[62,5],[75,6],[16,1],[74,6],[15,1],[28,2],[29,2],[0,0],[36,3],[65,5],[53,4],[24,2],[37,3],[38,3],[72,6],[13,1],[39,3],[52,4],[61,5],[2,0],[60,5],[1,0],[40,3],[27,2],[73,6],[14,1],[26,2],[25,2],[41,3],[12,1],[64,5],[5,0],[76,6],[17,1],[63,5],[4,0]]}
+I20240701 06:04:12.585287 668986 etcd_catalog_metadata_watcher.h:109] Update vertex tables from etcd
+I20240701 06:04:13.631733 668996 election_util.h:157] Leader time not changed. By default, the leader is considered to be down, and the leader lease needs to be revoked and re-election triggered.
+I20240701 06:04:13.631808 668996 election_util.h:170] Revoke leader lease: 7587879742346440751, leader id: 127.0.0.1:55528
+I20240701 06:04:17.945484 668985 etcd_catalog_metadata_watcher.h:94] Update graphs from etcd
+I20240701 06:04:17.950001 668986 etcd_catalog_metadata_watcher.h:109] Update vertex tables from etcd
+I20240701 06:04:18.272058 668988 etcd_catalog_metadata_watcher.h:139] Update job manager meta from etcd
+I20240701 06:04:18.272106 668988 etcd_catalog_metadata_watcher.h:143] job manager meta str is : {"graph_name_to_job_ids_map":{"g1":[0,1,2,3,4,5,6,7]},"job_id_to_graph_name_map":[[7,"g1"],[5,"g1"],[3,"g1"],[1,"g1"],[0,"g1"],[2,"g1"],[4,"g1"],[6,"g1"]],"job_id_to_ns_map":[[7,{"levels_":["test","ns"]}],[5,{"levels_":["test","ns"]}],[3,{"levels_":["test","ns"]}],[1,{"levels_":["test","ns"]}],[0,{"levels_":["test","ns"]}],[2,{"levels_":["test","ns"]}],[4,{"levels_":["test","ns"]}],[6,{"levels_":["test","ns"]}]],"job_status":[[7,"pending"],[5,"finished"],[3,"finished"],[1,"failed"],[0,"finished"],[2,"failed"],[4,"finished"],[6,"finished"]],"job_type_map":[[7,"import_vertex_job"],[5,"import_vertex_job"],[3,"import_vertex_job"],[1,"import_vertex_job"],[0,"import_vertex_job"],[2,"import_vertex_job"],[4,"import_vertex_job"],[6,"import_vertex_job"]],"label_to_job_ids_map":{"job_reuse_label_0":[0],"job_reuse_label_1":[1],"job_reuse_label_2":[2],"job_reuse_label_3":[3],"job_reuse_label_4":[4],"job_reuse_label_5":[5],"job_reuse_label_6":[6],"vlabel_1_job_reuse_label_7":[7]},"last_assign_job_id":8,"last_assign_task_id":96,"ns_to_job_ids_map":[[{"levels_":["test","ns"]},[0,1,2,3,4,5,6,7]]],"task_id_to_job_id_map":[[89,7],[4,0],[63,5],[17,1],[76,6],[5,0],[64,5],[12,1],[41,3],[84,7],[25,2],[85,7],[26,2],[14,1],[73,6],[86,7],[27,2],[87,7],[28,2],[88,7],[29,2],[0,0],[15,1],[74,6],[48,4],[77,6],[16,1],[75,6],[3,0],[62,5],[49,4],[50,4],[51,4],[36,3],[65,5],[53,4],[24,2],[37,3],[38,3],[72,6],[13,1],[39,3],[52,4],[61,5],[2,0],[60,5],[1,0],[40,3]]}
+I20240701 06:04:18.554806 668986 etcd_catalog_metadata_watcher.h:109] Update vertex tables from etcd
+
+
+I20240701 06:04:19.010775 668983 etcd_election_client.cc:152] Election successfully, I am leader : 127.0.0.1:55527
+I20240701 06:04:19.010838 668983 etcd_election_client.cc:126] Become the leader and perform leader initialization.
+I20240701 06:04:19.010851 668983 etcd_based_election_manager.h:55] election callback : stop watch
+I20240701 06:04:19.010865 668983 etcd_catalog_metadata_watcher.h:49] Stop to watch metadata changes from etcd
+I20240701 06:04:19.016218 668983 meta_service.h:339] Start executing the recovery logic
+I20240701 06:04:19.016300 668983 job_manager.cc:381] Starting restore job 6
+I20240701 06:04:19.028311 668983 table_manager.h:56] Starting get vertex table from catalog: test.ns.g1.VERTEX_TABLE.job_reuse_label_6
+I20240701 06:04:19.028386 668983 base_table_operations.cc:63] Getting table metadata from store: test.ns.g1.VERTEX_TABLE.job_reuse_label_6
+I20240701 06:04:19.028752 668983 json_table_metadata_parser.h:43] JsonTableMetadataParser::deSerTableMetadata: {"commit-cas-version":-1,"current-schema-id":0,"current-snapshot-id":1,"current-spec-id":0,"edge-snapshot-by-id":{},"format-version":1,"last-column-id":5,"last-updated-ms":1129270308855797,"location":"/test/ns/job_reuse_label_6","metadata-dir":"/tmp/flavius/metadata","metadata-file-location":"/tmp/flavius/metadata/0-35005211.metadata.json","properties":{},"schema-by-id":{"0":{"fields":{"base-type":"struct","type":[{"doc":"Internal vertex ID column","field-id":1,"field-name":"__vid__","field-type":{"base-type":"primitive","type":"int64"},"is-optional":false},{"doc":"","field-id":2,"field-name":"pkey","field-type":{"base-type":"primitive","type":"int32"},"is-optional":false},{"doc":"","field-id":3,"field-name":"int32","field-type":{"base-type":"primitive","type":"int32"},"is-optional":true},{"doc":"","field-id":4,"field-name":"str","field-type":{"base-type":"primitive","type":"string"},"is-optional":false},{"doc":"","field-id":5,"field-name":"float64","field-type":{"base-type":"primitive","type":"double"},"is-optional":true}]},"identifier-fields-ids":[2],"schema-id":0}},"specs-by-id":{"0":{"reverse-edge-segment-field-id":-1,"segment-field-id":2,"segment-method":{"segment-base-number":32,"segment-extension-depths":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"segment-method-type":0},"spec-id":0}},"table-metadata-type":0,"table-uuid":"cf94b65c-2b44-44fd-b77e-84d4eabafd53","vertex-snapshot-by-id":{"1":{"operation":"","parent-id":-1,"schema-id":0,"segment-list-path":"/tmp/flavius/metadata/vertex_snapshot-1/segment_list-1-0-5425818a-e5cc-45f3-b3fe-d63ac8a95d45.json","segment-spec-id":0,"snapshot-id":1,"summary":{},"timestamp-mills":1129270308855797}}}
+I20240701 06:04:19.030093 668983 job_manager.cc:404] Successfully restored ImportVertexJob, job_id: 6
+I20240701 06:04:19.030185 668983 job_manager.cc:381] Starting restore job 4
+I20240701 06:04:19.037279 668983 table_manager.h:56] Starting get vertex table from catalog: test.ns.g1.VERTEX_TABLE.job_reuse_label_4
+I20240701 06:04:19.037339 668983 base_table_operations.cc:63] Getting table metadata from store: test.ns.g1.VERTEX_TABLE.job_reuse_label_4
+I20240701 06:04:19.037638 668983 json_table_metadata_parser.h:43] JsonTableMetadataParser::deSerTableMetadata: {"commit-cas-version":-1,"current-schema-id":0,"current-snapshot-id":1,"current-spec-id":0,"edge-snapshot-by-id":{},"format-version":1,"last-column-id":5,"last-updated-ms":1129259418700475,"location":"/test/ns/job_reuse_label_4","metadata-dir":"/tmp/flavius/metadata","metadata-file-location":"/tmp/flavius/metadata/0-1365180540.metadata.json","properties":{},"schema-by-id":{"0":{"fields":{"base-type":"struct","type":[{"doc":"Internal vertex ID column","field-id":1,"field-name":"__vid__","field-type":{"base-type":"primitive","type":"int64"},"is-optional":false},{"doc":"","field-id":2,"field-name":"pkey","field-type":{"base-type":"primitive","type":"int32"},"is-optional":false},{"doc":"","field-id":3,"field-name":"int32","field-type":{"base-type":"primitive","type":"int32"},"is-optional":true},{"doc":"","field-id":4,"field-name":"str","field-type":{"base-type":"primitive","type":"string"},"is-optional":false},{"doc":"","field-id":5,"field-name":"float64","field-type":{"base-type":"primitive","type":"double"},"is-optional":true}]},"identifier-fields-ids":[2],"schema-id":0}},"specs-by-id":{"0":{"reverse-edge-segment-field-id":-1,"segment-field-id":2,"segment-method":{"segment-base-number":32,"segment-extension-depths":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"segment-method-type":0},"spec-id":0}},"table-metadata-type":0,"table-uuid":"1106ad34-c383-413c-970e-3e5a9f844762","vertex-snapshot-by-id":{"1":{"operation":"","parent-id":-1,"schema-id":0,"segment-list-path":"/tmp/flavius/metadata/vertex_snapshot-1/segment_list-1-0-e9120529-d49d-4dd0-aac7-2ebd69bdce9c.json","segment-spec-id":0,"snapshot-id":1,"summary":{},"timestamp-mills":1129259418700475}}}
+I20240701 06:04:19.038713 668983 job_manager.cc:404] Successfully restored ImportVertexJob, job_id: 4
+I20240701 06:04:19.038789 668983 job_manager.cc:381] Starting restore job 2
+I20240701 06:04:19.041574 668983 table_manager.h:56] Starting get vertex table from catalog: test.ns.g1.VERTEX_TABLE.job_reuse_label_2
+I20240701 06:04:19.041628 668983 base_table_operations.cc:63] Getting table metadata from store: test.ns.g1.VERTEX_TABLE.job_reuse_label_2
+I20240701 06:04:19.041882 668983 json_table_metadata_parser.h:43] JsonTableMetadataParser::deSerTableMetadata: {"commit-cas-version":-1,"current-schema-id":0,"current-snapshot-id":0,"current-spec-id":0,"edge-snapshot-by-id":{},"format-version":1,"last-column-id":5,"last-updated-ms":0,"location":"/test/ns/job_reuse_label_2","metadata-dir":"/tmp/flavius/metadata","metadata-file-location":"/tmp/flavius/metadata/0-521595368.metadata.json","properties":{},"schema-by-id":{"0":{"fields":{"base-type":"struct","type":[{"doc":"Internal vertex ID column","field-id":1,"field-name":"__vid__","field-type":{"base-type":"primitive","type":"int64"},"is-optional":false},{"doc":"","field-id":2,"field-name":"pkey","field-type":{"base-type":"primitive","type":"int32"},"is-optional":false},{"doc":"","field-id":3,"field-name":"int32","field-type":{"base-type":"primitive","type":"int32"},"is-optional":true},{"doc":"","field-id":4,"field-name":"str","field-type":{"base-type":"primitive","type":"string"},"is-optional":false},{"doc":"","field-id":5,"field-name":"float64","field-type":{"base-type":"primitive","type":"double"},"is-optional":true}]},"identifier-fields-ids":[2],"schema-id":0}},"specs-by-id":{"0":{"reverse-edge-segment-field-id":-1,"segment-field-id":2,"segment-method":{"segment-base-number":32,"segment-extension-depths":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"segment-method-type":0},"spec-id":0}},"table-metadata-type":0,"table-uuid":"dd4bfa4b-2c75-4171-a437-a79eb519c398","vertex-snapshot-by-id":{}}
+I20240701 06:04:19.043226 668983 job_manager.cc:404] Successfully restored ImportVertexJob, job_id: 2
+I20240701 06:04:19.043290 668983 job_manager.cc:381] Starting restore job 0
+I20240701 06:04:19.045709 668974 election_util.h:157] Leader time not changed. By default, the leader is considered to be down, and the leader lease needs to be revoked and re-election triggered.
+E20240701 06:04:19.045780 668974 election_util.h:177] Pre leader id 127.0.0.1:55526, lease id 7587879742346440890 is not equal to current leader id 127.0.0.1:55527 lease id 7587879742346441041, skip revoke leader lease.
+I20240701 06:04:19.049361 668983 table_manager.h:56] Starting get vertex table from catalog: test.ns.g1.VERTEX_TABLE.job_reuse_label_0
+I20240701 06:04:19.049408 668983 base_table_operations.cc:63] Getting table metadata from store: test.ns.g1.VERTEX_TABLE.job_reuse_label_0
+I20240701 06:04:19.049659 668983 json_table_metadata_parser.h:43] JsonTableMetadataParser::deSerTableMetadata: {"commit-cas-version":-1,"current-schema-id":0,"current-snapshot-id":0,"current-spec-id":0,"edge-snapshot-by-id":{},"format-version":1,"last-column-id":5,"last-updated-ms":0,"location":"/test/ns/vlabel_1_job_reuse_label_7","metadata-dir":"/tmp/flavius/metadata","metadata-file-location":"/tmp/flavius/metadata/0-304089172.metadata.json","properties":{},"schema-by-id":{"0":{"fields":{"base-type":"struct","type":[{"doc":"Internal vertex ID column","field-id":1,"field-name":"__vid__","field-type":{"base-type":"primitive","type":"int64"},"is-optional":false},{"doc":"","field-id":2,"field-name":"pkey","field-type":{"base-type":"primitive","type":"int32"},"is-optional":false},{"doc":"","field-id":3,"field-name":"int32","field-type":{"base-type":"primitive","type":"int32"},"is-optional":true},{"doc":"","field-id":4,"field-name":"str","field-type":{"base-type":"primitive","type":"string"},"is-optional":false},{"doc":"","field-id":5,"field-name":"float64","field-type":{"base-type":"primitive","type":"double"},"is-optional":true}]},"identifier-fields-ids":[2],"schema-id":0}},"specs-by-id":{"0":{"reverse-edge-segment-field-id":-1,"segment-field-id":2,"segment-method":{"segment-base-number":32,"segment-extension-depths":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"segment-method-type":0},"spec-id":0}},"table-metadata-type":0,"table-uuid":"7eac9b79-351c-4b8a-aa6f-cdf280a4b45f","vertex-snapshot-by-id":{}}
+I20240701 06:04:19.050611 668983 job_manager.cc:404] Successfully restored ImportVertexJob, job_id: 0
+I20240701 06:04:19.050683 668983 job_manager.cc:381] Starting restore job 1
+I20240701 06:04:19.053360 668983 table_manager.h:56] Starting get vertex table from catalog: test.ns.g1.VERTEX_TABLE.job_reuse_label_1
+I20240701 06:04:19.053411 668983 base_table_operations.cc:63] Getting table metadata from store: test.ns.g1.VERTEX_TABLE.job_reuse_label_1
+I20240701 06:04:19.053638 668983 json_table_metadata_parser.h:43] JsonTableMetadataParser::deSerTableMetadata: {"commit-cas-version":-1,"current-schema-id":0,"current-snapshot-id":0,"current-spec-id":0,"edge-snapshot-by-id":{},"format-version":1,"last-column-id":5,"last-updated-ms":0,"location":"/test/ns/job_reuse_label_2","metadata-dir":"/tmp/flavius/metadata","metadata-file-location":"/tmp/flavius/metadata/0-521595368.metadata.json","properties":{},"schema-by-id":{"0":{"fields":{"base-type":"struct","type":[{"doc":"Internal vertex ID column","field-id":1,"field-name":"__vid__","field-type":{"base-type":"primitive","type":"int64"},"is-optional":false},{"doc":"","field-id":2,"field-name":"pkey","field-type":{"base-type":"primitive","type":"int32"},"is-optional":false},{"doc":"","field-id":3,"field-name":"int32","field-type":{"base-type":"primitive","type":"int32"},"is-optional":true},{"doc":"","field-id":4,"field-name":"str","field-type":{"base-type":"primitive","type":"string"},"is-optional":false},{"doc":"","field-id":5,"field-name":"float64","field-type":{"base-type":"primitive","type":"double"},"is-optional":true}]},"identifier-fields-ids":[2],"schema-id":0}},"specs-by-id":{"0":{"reverse-edge-segment-field-id":-1,"segment-field-id":2,"segment-method":{"segment-base-number":32,"segment-extension-depths":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"segment-method-type":0},"spec-id":0}},"table-metadata-type":0,"table-uuid":"dd4bfa4b-2c75-4171-a437-a79eb519c398","vertex-snapshot-by-id":{}}
+I20240701 06:04:19.054626 668983 job_manager.cc:404] Successfully restored ImportVertexJob, job_id: 1
+I20240701 06:04:19.054692 668983 job_manager.cc:381] Starting restore job 3
+I20240701 06:04:19.060288 668983 table_manager.h:56] Starting get vertex table from catalog: test.ns.g1.VERTEX_TABLE.job_reuse_label_3
+I20240701 06:04:19.060349 668983 base_table_operations.cc:63] Getting table metadata from store: test.ns.g1.VERTEX_TABLE.job_reuse_label_3
+I20240701 06:04:19.060658 668983 json_table_metadata_parser.h:43] JsonTableMetadataParser::deSerTableMetadata: {"commit-cas-version":-1,"current-schema-id":0,"current-snapshot-id":1,"current-spec-id":0,"edge-snapshot-by-id":{},"format-version":1,"last-column-id":5,"last-updated-ms":1129259418700475,"location":"/test/ns/job_reuse_label_4","metadata-dir":"/tmp/flavius/metadata","metadata-file-location":"/tmp/flavius/metadata/0-1365180540.metadata.json","properties":{},"schema-by-id":{"0":{"fields":{"base-type":"struct","type":[{"doc":"Internal vertex ID column","field-id":1,"field-name":"__vid__","field-type":{"base-type":"primitive","type":"int64"},"is-optional":false},{"doc":"","field-id":2,"field-name":"pkey","field-type":{"base-type":"primitive","type":"int32"},"is-optional":false},{"doc":"","field-id":3,"field-name":"int32","field-type":{"base-type":"primitive","type":"int32"},"is-optional":true},{"doc":"","field-id":4,"field-name":"str","field-type":{"base-type":"primitive","type":"string"},"is-optional":false},{"doc":"","field-id":5,"field-name":"float64","field-type":{"base-type":"primitive","type":"double"},"is-optional":true}]},"identifier-fields-ids":[2],"schema-id":0}},"specs-by-id":{"0":{"reverse-edge-segment-field-id":-1,"segment-field-id":2,"segment-method":{"segment-base-number":32,"segment-extension-depths":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"segment-method-type":0},"spec-id":0}},"table-metadata-type":0,"table-uuid":"1106ad34-c383-413c-970e-3e5a9f844762","vertex-snapshot-by-id":{"1":{"operation":"","parent-id":-1,"schema-id":0,"segment-list-path":"/tmp/flavius/metadata/vertex_snapshot-1/segment_list-1-0-e9120529-d49d-4dd0-aac7-2ebd69bdce9c.json","segment-spec-id":0,"snapshot-id":1,"summary":{},"timestamp-mills":1129259418700475}}}
+I20240701 06:04:19.061836 668983 job_manager.cc:404] Successfully restored ImportVertexJob, job_id: 3
+I20240701 06:04:19.061901 668983 job_manager.cc:381] Starting restore job 5
+I20240701 06:04:19.067742 668983 table_manager.h:56] Starting get vertex table from catalog: test.ns.g1.VERTEX_TABLE.job_reuse_label_5
+I20240701 06:04:19.067791 668983 base_table_operations.cc:63] Getting table metadata from store: test.ns.g1.VERTEX_TABLE.job_reuse_label_5
+I20240701 06:04:19.068111 668983 json_table_metadata_parser.h:43] JsonTableMetadataParser::deSerTableMetadata: {"commit-cas-version":-1,"current-schema-id":0,"current-snapshot-id":1,"current-spec-id":0,"edge-snapshot-by-id":{},"format-version":1,"last-column-id":5,"last-updated-ms":1129267840184481,"location":"/test/ns/job_reuse_label_5","metadata-dir":"/tmp/flavius/metadata","metadata-file-location":"/tmp/flavius/metadata/0-1540383426.metadata.json","properties":{},"schema-by-id":{"0":{"fields":{"base-type":"struct","type":[{"doc":"Internal vertex ID column","field-id":1,"field-name":"__vid__","field-type":{"base-type":"primitive","type":"int64"},"is-optional":false},{"doc":"","field-id":2,"field-name":"pkey","field-type":{"base-type":"primitive","type":"int32"},"is-optional":false},{"doc":"","field-id":3,"field-name":"int32","field-type":{"base-type":"primitive","type":"int32"},"is-optional":true},{"doc":"","field-id":4,"field-name":"str","field-type":{"base-type":"primitive","type":"string"},"is-optional":false},{"doc":"","field-id":5,"field-name":"float64","field-type":{"base-type":"primitive","type":"double"},"is-optional":true}]},"identifier-fields-ids":[2],"schema-id":0}},"specs-by-id":{"0":{"reverse-edge-segment-field-id":-1,"segment-field-id":2,"segment-method":{"segment-base-number":32,"segment-extension-depths":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"segment-method-type":0},"spec-id":0}},"table-metadata-type":0,"table-uuid":"9a6f1099-b667-4705-9fb4-f43b6a86b29c","vertex-snapshot-by-id":{"1":{"operation":"","parent-id":-1,"schema-id":0,"segment-list-path":"/tmp/flavius/metadata/vertex_snapshot-1/segment_list-1-0-e11f0aad-0775-4ef4-bc6c-faa0950f863b.json","segment-spec-id":0,"snapshot-id":1,"summary":{},"timestamp-mills":1129267840184481}}}
+I20240701 06:04:19.069187 668983 job_manager.cc:404] Successfully restored ImportVertexJob, job_id: 5
+I20240701 06:04:19.069264 668983 job_manager.cc:381] Starting restore job 7
+I20240701 06:04:19.075289 668983 table_manager.h:56] Starting get vertex table from catalog: test.ns.g1.VERTEX_TABLE.vlabel_1_job_reuse_label_7
+I20240701 06:04:19.075346 668983 base_table_operations.cc:63] Getting table metadata from store: test.ns.g1.VERTEX_TABLE.vlabel_1_job_reuse_label_7
+I20240701 06:04:19.075623 668983 json_table_metadata_parser.h:43] JsonTableMetadataParser::deSerTableMetadata: {"commit-cas-version":-1,"current-schema-id":0,"current-snapshot-id":1,"current-spec-id":0,"edge-snapshot-by-id":{},"format-version":1,"last-column-id":5,"last-updated-ms":1129276273215709,"location":"/test/ns/vlabel_1_job_reuse_label_7","metadata-dir":"/tmp/flavius/metadata","metadata-file-location":"/tmp/flavius/metadata/0-1303455736.metadata.json","properties":{},"schema-by-id":{"0":{"fields":{"base-type":"struct","type":[{"doc":"Internal vertex ID column","field-id":1,"field-name":"__vid__","field-type":{"base-type":"primitive","type":"int64"},"is-optional":false},{"doc":"","field-id":2,"field-name":"pkey","field-type":{"base-type":"primitive","type":"int32"},"is-optional":false},{"doc":"","field-id":3,"field-name":"int32","field-type":{"base-type":"primitive","type":"int32"},"is-optional":true},{"doc":"","field-id":4,"field-name":"str","field-type":{"base-type":"primitive","type":"string"},"is-optional":false},{"doc":"","field-id":5,"field-name":"float64","field-type":{"base-type":"primitive","type":"double"},"is-optional":true}]},"identifier-fields-ids":[2],"schema-id":0}},"specs-by-id":{"0":{"reverse-edge-segment-field-id":-1,"segment-field-id":2,"segment-method":{"segment-base-number":32,"segment-extension-depths":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"segment-method-type":0},"spec-id":0}},"table-metadata-type":0,"table-uuid":"7eac9b79-351c-4b8a-aa6f-cdf280a4b45f","vertex-snapshot-by-id":{"1":{"operation":"","parent-id":-1,"schema-id":0,"segment-list-path":"/tmp/flavius/metadata/vertex_snapshot-1/segment_list-1-0-312fa675-6271-444d-be57-7796b5737651.json","segment-spec-id":0,"snapshot-id":1,"summary":{},"timestamp-mills":1129276273215709}}}
+I20240701 06:04:19.076685 668983 job_manager.cc:404] Successfully restored ImportVertexJob, job_id: 7
+I20240701 06:04:19.077410 668983 job_manager.cc:428] Starting reuse job, job id: 6, JobStatus: {"job_executor_status_snapshots_":[{"status_":"finished","task_status_map_":[[72,0],[73,0],[74,0],[75,0],[76,0],[77,0]]},{"status_":"finished","task_status_map_":[]},{"status_":"finished","task_status_map_":[[78,2],[79,2],[80,2],[81,2],[82,2],[83,2]]}],"status_":"finished"}
+I20240701 06:04:19.077836 668983 job_manager.cc:139] flushJobStatusSnapshot job_id: 6, job_status_snapshot: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[72,0],[73,0],[74,0],[75,0],[76,0],[77,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[78,0],[79,0],[80,0],[81,0],[82,0],[83,0]]}],"status_":"finished"}
+I20240701 06:04:19.078714 668983 base_job.h:129] The job 6 is in a terminated state and does not need to reuse.
+I20240701 06:04:19.079295 668983 job_manager.cc:428] Starting reuse job, job id: 4, JobStatus: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[48,0],[49,0],[50,0],[51,0],[52,0],[53,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[54,0],[55,0],[56,0],[57,0],[58,0],[59,0]]}],"status_":"finished"}
+I20240701 06:04:19.079699 668983 job_manager.cc:139] flushJobStatusSnapshot job_id: 4, job_status_snapshot: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[48,0],[49,0],[50,0],[51,0],[52,0],[53,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[54,0],[55,0],[56,0],[57,0],[58,0],[59,0]]}],"status_":"finished"}
+I20240701 06:04:19.080385 668983 base_job.h:129] The job 4 is in a terminated state and does not need to reuse.
+I20240701 06:04:19.080899 668983 job_manager.cc:428] Starting reuse job, job id: 2, JobStatus: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[24,0],[25,0],[26,0],[27,0],[28,0],[29,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[30,0],[31,0],[32,0],[33,0],[34,0],[35,0]]}],"status_":"failed"}
+I20240701 06:04:19.081302 668983 job_manager.cc:139] flushJobStatusSnapshot job_id: 2, job_status_snapshot: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[24,0],[25,0],[26,0],[27,0],[28,0],[29,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[30,0],[31,0],[32,0],[33,0],[34,0],[35,0]]}],"status_":"failed"}
+I20240701 06:04:19.081952 668983 base_job.h:129] The job 2 is in a terminated state and does not need to reuse.
+I20240701 06:04:19.082466 668983 job_manager.cc:428] Starting reuse job, job id: 0, JobStatus: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[0,0],[1,0],[2,0],[3,0],[4,0],[5,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[6,0],[7,0],[8,0],[9,0],[10,0],[11,0]]}],"status_":"finished"}
+I20240701 06:04:19.082836 668983 job_manager.cc:139] flushJobStatusSnapshot job_id: 0, job_status_snapshot: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[0,0],[1,0],[2,0],[3,0],[4,0],[5,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[6,0],[7,0],[8,0],[9,0],[10,0],[11,0]]}],"status_":"finished"}
+I20240701 06:04:19.083436 668983 base_job.h:129] The job 0 is in a terminated state and does not need to reuse.
+I20240701 06:04:19.083889 668983 job_manager.cc:428] Starting reuse job, job id: 1, JobStatus: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[12,0],[13,0],[14,0],[15,0],[16,0],[17,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[18,0],[19,0],[20,0],[21,0],[22,0],[23,0]]}],"status_":"failed"}
+I20240701 06:04:19.084281 668983 job_manager.cc:139] flushJobStatusSnapshot job_id: 1, job_status_snapshot: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[12,0],[13,0],[14,0],[15,0],[16,0],[17,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[18,0],[19,0],[20,0],[21,0],[22,0],[23,0]]}],"status_":"failed"}
+I20240701 06:04:19.084952 668983 base_job.h:129] The job 1 is in a terminated state and does not need to reuse.
+I20240701 06:04:19.085418 668983 job_manager.cc:428] Starting reuse job, job id: 3, JobStatus: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[36,0],[37,0],[38,0],[39,0],[40,0],[41,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[42,0],[43,0],[44,0],[45,0],[46,0],[47,0]]}],"status_":"finished"}
+I20240701 06:04:19.085814 668983 job_manager.cc:139] flushJobStatusSnapshot job_id: 3, job_status_snapshot: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[36,0],[37,0],[38,0],[39,0],[40,0],[41,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[42,0],[43,0],[44,0],[45,0],[46,0],[47,0]]}],"status_":"finished"}
+I20240701 06:04:19.086640 668983 base_job.h:129] The job 3 is in a terminated state and does not need to reuse.
+I20240701 06:04:19.087196 668983 job_manager.cc:428] Starting reuse job, job id: 5, JobStatus: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[60,0],[61,0],[62,0],[63,0],[64,0],[65,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[66,0],[67,0],[68,0],[69,0],[70,0],[71,0]]}],"status_":"finished"}
+I20240701 06:04:19.087594 668983 job_manager.cc:139] flushJobStatusSnapshot job_id: 5, job_status_snapshot: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[60,0],[61,0],[62,0],[63,0],[64,0],[65,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[66,0],[67,0],[68,0],[69,0],[70,0],[71,0]]}],"status_":"finished"}
+I20240701 06:04:19.088279 668983 base_job.h:129] The job 5 is in a terminated state and does not need to reuse.
+I20240701 06:04:19.088745 668983 job_manager.cc:428] Starting reuse job, job id: 7, JobStatus: {"job_executor_status_snapshots_":[{"status_":"finished","task_status_map_":[[84,2],[85,2],[86,2],[87,2],[88,2],[89,2]]},{"status_":"finished","task_status_map_":[]},{"status_":"finished","task_status_map_":[[90,2],[91,2],[92,2],[93,2],[94,2],[95,2]]}],"status_":"finished"}
+I20240701 06:04:19.089124 668983 job_manager.cc:139] flushJobStatusSnapshot job_id: 7, job_status_snapshot: {"job_executor_status_snapshots_":[{"status_":"pending","task_status_map_":[[84,0],[85,0],[86,0],[87,0],[88,0],[89,0]]},{"status_":"pending","task_status_map_":[]},{"status_":"pending","task_status_map_":[[90,0],[91,0],[92,0],[93,0],[94,0],[95,0]]}],"status_":"finished"}
+I20240701 06:04:19.089784 668983 base_job.h:129] The job 7 is in a terminated state and does not need to reuse.
+I20240701 06:04:19.089823 668983 election_util.h:212] Start UpdateLeaderSysTimeWorker
+I20240701 06:04:19.089854 668983 flavius_worker.cc:65] Start Worker: UpdateLeaderSysTimeWorker, thread cnt: 1, interval: 200
+I20240701 06:04:19.089866 668983 election_util.h:116] Stop WatchLeaderSysTimeWorker
+I20240701 06:04:19.089901 668980 election_util.h:234] UpdateLeaderSysTimeWorker work 0
+I20240701 06:04:19.091552 668983 etcd_election_client.cc:44] Obverse value:127.0.0.1:55527
+==668949==WARNING: ASan is ignoring requested __asan_handle_no_return: stack type: default top: 0x7faf1370c400; bottom 0x7faf0f103000; size: 0x000004609400 (73438208)
+False positive error reports may follow
+For details see https://github.com/google/sanitizers/issues/189
+E20240701 06:04:19.367671 668997 meta_service.cc:1249] getVertexIdIndexFileInfo() failed, got NoSuchVertexTableException: [CatalogException][NoSuchVertexTableException]loadVertexTable() failed, Vertex label: vlabel_2job_reuse_label_7 not existed
+E20240701 06:04:19.735947 668991 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E1008]Reached timeout=64ms @127.0.0.1:55535
+[Remain retry count]: 2
+E20240701 06:04:19.864320 668996 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E1008]Reached timeout=128ms @127.0.0.1:55535
+[Remain retry count]: 1
+E20240701 06:04:20.120711 668979 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E1008]Reached timeout=256ms @127.0.0.1:55535
+[Remain retry count]: 0
+E20240701 06:04:20.633070 668979 master_compute_node_manager.cc:41] Finally Send HearBeat to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E1008]Reached timeout=512ms @127.0.0.1:55535
+[Total retry count]: 3
+W20240701 06:04:20.728431 668977 input_messenger.cpp:375] Fail to read from Socket{id=1 fd=6 addr=127.0.0.1:55535:56598} (0x63100003ca80): Connection reset by peer [104]
+E20240701 06:04:20.730841 668979 meta_service.cc:1249] getVertexIdIndexFileInfo() failed, got NoSuchVertexTableException: [CatalogException][NoSuchVertexTableException]loadVertexTable() failed, Vertex label: vlabel_2job_reuse_label_7 not existed
+E20240701 06:04:20.833971 668991 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 2
+E20240701 06:04:20.834002 668975 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 2
+E20240701 06:04:20.834400 668997 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 1
+E20240701 06:04:20.834419 668977 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 1
+E20240701 06:04:20.834750 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 0
+E20240701 06:04:20.834856 668979 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 0
+E20240701 06:04:20.835108 668975 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Total retry count]: 3
+E20240701 06:04:20.835217 668991 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Total retry count]: 3
+E20240701 06:04:20.835610 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E111]Fail to connect Socket{id=408 addr=127.0.0.1:55535} (0x0x6310000c8800): Connection refused [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 2
+E20240701 06:04:20.835738 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 1
+E20240701 06:04:20.835758 668977 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 2
+E20240701 06:04:20.835783 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 0
+E20240701 06:04:20.835847 668997 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Total retry count]: 3
+E20240701 06:04:20.836102 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 1
+E20240701 06:04:20.836416 668979 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 0
+E20240701 06:04:20.836742 668975 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Total retry count]: 3
+E20240701 06:04:20.899735 668991 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E1008]Reached timeout=64ms @127.0.0.1:55537
+[Remain retry count]: 2
+I20240701 06:04:20.935672 668974 socket.cpp:2465] Checking Socket{id=0 addr=127.0.0.1:55535} (0x63100003c800)
+E20240701 06:04:21.028095 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E1008]Reached timeout=128ms @127.0.0.1:55537
+[Remain retry count]: 1
+W20240701 06:04:21.186190 668977 input_messenger.cpp:375] Fail to read from Socket{id=7 fd=11 addr=127.0.0.1:55537:35900} (0x63100003d980): Connection reset by peer [104]
+E20240701 06:04:21.186538 668979 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E104]Fail to read from Socket{id=7 fd=11 addr=127.0.0.1:55537:35900} (0x0x63100003d980): Connection reset by peer [R1][E111]Fail to connect Socket{id=8589935001 addr=127.0.0.1:55537} (0x0x6310000c8a80): Connection refused [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:21.186779 668979 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+I20240701 06:04:21.186846 668979 master_compute_node_manager.cc:264] [MetaServer::CNManager] Remove CNs {1, } fail, current CNList: CNList: {
+version:2
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ComputeNode: { id: 2 on 127.0.0.1:55536 }, ComputeNode: { id: 3 on 127.0.0.1:55537 }, ]
+}
+E20240701 06:04:21.188686 668991 meta_service.cc:1249] getVertexIdIndexFileInfo() failed, got NoSuchVertexTableException: [CatalogException][NoSuchVertexTableException]loadVertexTable() failed, Vertex label: vlabel_2job_reuse_label_7 not existed
+I20240701 06:04:21.286628 668977 socket.cpp:2465] Checking Socket{id=6 addr=127.0.0.1:55537} (0x63100003d700)
+E20240701 06:04:21.387331 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:21.387567 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:21.387679 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:21.387806 668974 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:21.451494 668975 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E1008]Reached timeout=64ms @127.0.0.1:55536
+[Remain retry count]: 2
+E20240701 06:04:21.579802 668977 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E1008]Reached timeout=128ms @127.0.0.1:55536
+[Remain retry count]: 1
+W20240701 06:04:21.600574 668997 input_messenger.cpp:375] Fail to read from Socket{id=4 fd=10 addr=127.0.0.1:55536:44280} (0x63100003d200): Connection reset by peer [104]
+E20240701 06:04:21.601014 668975 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E104]Fail to read from Socket{id=4 fd=10 addr=127.0.0.1:55536:44280} (0x0x63100003d200): Connection reset by peer [R1][E111]Fail to connect Socket{id=8589934796 addr=127.0.0.1:55536:55527} (0x0x6310000a0800): Connection refused [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:21.601210 668975 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+E20240701 06:04:21.601354 668977 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 2
+E20240701 06:04:21.601423 668996 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 2
+E20240701 06:04:21.601456 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:21.601462 668977 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 1
+E20240701 06:04:21.601583 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:21.601593 668996 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 1
+E20240701 06:04:21.601648 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 0
+E20240701 06:04:21.601681 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:21.601711 668991 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:21.601785 668974 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Total retry count]: 3
+E20240701 06:04:21.601788 668996 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:21.601845 668991 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+I20240701 06:04:21.601884 668991 master_compute_node_manager.cc:264] [MetaServer::CNManager] Remove CNs {1, } fail, current CNList: CNList: {
+version:2
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ComputeNode: { id: 2 on 127.0.0.1:55536 }, ComputeNode: { id: 3 on 127.0.0.1:55537 }, ]
+}
+I20240701 06:04:21.701104 668996 socket.cpp:2465] Checking Socket{id=3 addr=127.0.0.1:55536} (0x63100003cf80)
+E20240701 06:04:21.802238 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:21.802304 668997 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 2
+E20240701 06:04:21.802429 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:21.802433 668997 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 1
+E20240701 06:04:21.802554 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:21.802579 668996 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:21.802641 668974 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:21.802713 668996 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+E20240701 06:04:21.802898 668975 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 2
+E20240701 06:04:21.802954 668991 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 2
+E20240701 06:04:21.802983 668977 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:21.803097 668975 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 1
+E20240701 06:04:21.803117 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:21.803104 668991 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 1
+E20240701 06:04:21.803180 668975 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 0
+E20240701 06:04:21.803260 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:21.803268 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:21.803309 668975 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Total retry count]: 3
+E20240701 06:04:21.803369 668977 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:21.803377 668997 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+I20240701 06:04:21.803464 668997 master_compute_node_manager.cc:264] [MetaServer::CNManager] Remove CNs {1, } fail, current CNList: CNList: {
+version:2
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ComputeNode: { id: 2 on 127.0.0.1:55536 }, ComputeNode: { id: 3 on 127.0.0.1:55537 }, ]
+}
+E20240701 06:04:22.003954 668991 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:22.004019 668975 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 2
+E20240701 06:04:22.004114 668991 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:22.004185 668975 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 1
+E20240701 06:04:22.004185 668991 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:22.004264 668975 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:22.004289 668977 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:22.004372 668975 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+E20240701 06:04:22.004491 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 2
+E20240701 06:04:22.004528 668991 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 2
+E20240701 06:04:22.004568 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:22.004617 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 1
+E20240701 06:04:22.004621 668991 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 1
+E20240701 06:04:22.004686 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 0
+E20240701 06:04:22.004688 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:22.004703 668996 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:22.004773 668997 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Total retry count]: 3
+E20240701 06:04:22.004824 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:22.004877 668974 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:22.004915 668996 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+I20240701 06:04:22.004976 668996 master_compute_node_manager.cc:264] [MetaServer::CNManager] Remove CNs {1, } fail, current CNList: CNList: {
+version:2
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ComputeNode: { id: 2 on 127.0.0.1:55536 }, ComputeNode: { id: 3 on 127.0.0.1:55537 }, ]
+}
+E20240701 06:04:22.205328 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:22.205402 668975 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 2
+E20240701 06:04:22.205499 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:22.205579 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:22.205586 668975 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 1
+E20240701 06:04:22.205653 668974 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:22.205679 668991 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:22.205859 668991 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+E20240701 06:04:22.206077 668975 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:22.206051 668996 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 2
+E20240701 06:04:22.206048 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 2
+E20240701 06:04:22.206157 668975 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:22.206223 668975 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:22.206231 668996 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 1
+E20240701 06:04:22.206277 668975 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:22.206234 668977 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 1
+E20240701 06:04:22.206348 668996 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:22.206414 668977 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 0
+E20240701 06:04:22.206431 668974 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+E20240701 06:04:22.206542 668977 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Total retry count]: 3
+I20240701 06:04:22.206581 668977 master_compute_node_manager.cc:264] [MetaServer::CNManager] Remove CNs {1, } fail, current CNList: CNList: {
+version:2
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ComputeNode: { id: 2 on 127.0.0.1:55536 }, ComputeNode: { id: 3 on 127.0.0.1:55537 }, ]
+}
+E20240701 06:04:22.406989 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:22.407048 668997 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 2
+E20240701 06:04:22.407138 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:22.407188 668997 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 1
+E20240701 06:04:22.407225 668974 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:22.407270 668997 master_compute_node_manager.cc:46] Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:22.407303 668991 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:22.407325 668975 master_compute_node_manager.cc:41] Finally Send PrepareCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+E20240701 06:04:22.407519 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 2
+E20240701 06:04:22.407590 668977 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 2
+E20240701 06:04:22.407646 668997 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 2
+E20240701 06:04:22.407655 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 1
+E20240701 06:04:22.407702 668974 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Remain retry count]: 0
+E20240701 06:04:22.407714 668977 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 1
+E20240701 06:04:22.407737 668975 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 1
+E20240701 06:04:22.407783 668974 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R1][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R2][E112]Not connected to 127.0.0.1:55535 yet, server_id=0 [R3][E112]Not connected to 127.0.0.1:55535 yet, server_id=0
+[Total retry count]: 3
+E20240701 06:04:22.407815 668977 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Remain retry count]: 0
+E20240701 06:04:22.407872 668977 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R1][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R2][E112]Not connected to 127.0.0.1:55537 yet, server_id=6 [R3][E112]Not connected to 127.0.0.1:55537 yet, server_id=6
+[Total retry count]: 3
+E20240701 06:04:22.407883 668996 master_compute_node_manager.cc:46] Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Remain retry count]: 0
+E20240701 06:04:22.408015 668996 master_compute_node_manager.cc:41] Finally Send RollbackCNListUpdate to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: SUCCEED
+[ErrorText]: [E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R1][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R2][E112]Not connected to 127.0.0.1:55536 yet, server_id=3 [R3][E112]Not connected to 127.0.0.1:55536 yet, server_id=3
+[Total retry count]: 3
+I20240701 06:04:22.408066 668996 master_compute_node_manager.cc:264] [MetaServer::CNManager] Remove CNs {1, } fail, current CNList: CNList: {
+version:2
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ComputeNode: { id: 2 on 127.0.0.1:55536 }, ComputeNode: { id: 3 on 127.0.0.1:55537 }, ]
+}
