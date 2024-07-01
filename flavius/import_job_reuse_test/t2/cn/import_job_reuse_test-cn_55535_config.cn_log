@@ -1,0 +1,1077 @@
+I20240701 09:22:31.388322 890148 HiveConnector.cpp:66] Hive connector hive_connector created with maximum of 20000 cached file handles.
+I20240701 09:22:31.388703 890148 HiveConnector.cpp:66] Hive connector localfs-hive created with maximum of 20000 cached file handles.
+I20240701 09:22:31.388945 890148 HiveConnector.cpp:66] Hive connector s3-hive created with maximum of 20000 cached file handles.
+I20240701 09:22:31.411074 890148 server.cpp:1127] Server[flavius::exec::TaskServiceImpl+flavius::exec::ComputeServiceImpl+flavius::server::GraphStorageServiceImpl2] is serving on port=55535.
+I20240701 09:22:31.411157 890148 server.cpp:1130] Check out http://920f477ca690:55535 in web browser.
+I20240701 09:22:31.911645 890148 flavius_worker.cc:65] Start Worker: MirrorComputeNodeManagerWorker, thread cnt: 1, interval: 200
+I20240701 09:22:31.915964 890185 mirror_compute_node_manager.cc:58] >>>>>>>>>>>>>>>>>>>> Set my CN info: id 1 on 127.0.0.1:55535
+I20240701 09:22:38.633185 890174 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:22:38.635005 890188 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.21.snapshot-vid-index
+I20240701 09:22:38.635579 890185 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.8.snapshot-vid-index
+I20240701 09:22:38.636119 890174 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.20.snapshot-vid-index
+I20240701 09:22:38.636713 890188 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.7.snapshot-vid-index
+I20240701 09:22:38.637156 890185 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.15.snapshot-vid-index
+I20240701 09:22:38.637573 890174 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.2.snapshot-vid-index
+I20240701 09:22:38.638043 890188 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.27.snapshot-vid-index
+I20240701 09:22:38.638465 890185 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.14.snapshot-vid-index
+I20240701 09:22:38.638803 890174 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.1.snapshot-vid-index
+I20240701 09:22:38.639179 890188 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.26.snapshot-vid-index
+I20240701 09:22:38.639595 890185 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.13.snapshot-vid-index
+I20240701 09:22:38.640002 890174 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.0.snapshot-vid-index
+I20240701 09:22:38.640480 890188 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.21.snapshot-vtx-row-index
+I20240701 09:22:38.640839 890185 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.8.snapshot-vtx-row-index
+I20240701 09:22:38.641309 890174 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.20.snapshot-vtx-row-index
+I20240701 09:22:38.641772 890188 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.7.snapshot-vtx-row-index
+I20240701 09:22:38.642177 890185 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.15.snapshot-vtx-row-index
+I20240701 09:22:38.642643 890174 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.2.snapshot-vtx-row-index
+I20240701 09:22:38.643061 890188 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.27.snapshot-vtx-row-index
+I20240701 09:22:38.643508 890185 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.14.snapshot-vtx-row-index
+I20240701 09:22:38.643901 890174 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.1.snapshot-vtx-row-index
+I20240701 09:22:38.644318 890188 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.26.snapshot-vtx-row-index
+I20240701 09:22:38.644768 890185 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.13.snapshot-vtx-row-index
+I20240701 09:22:38.645116 890174 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 0.test.ns.g1.job_reuse_label_0.0.snapshot-vtx-row-index
+I20240701 09:22:38.645188 890174 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:22:38.657624 890188 graph_storage_service2.cc:344] Received get task status request for job_id: 0, task_id: 5 task_status: pending { } call id: 2199023255605
+I20240701 09:22:38.657881 890571 graph_storage_service2.cc:276] Getting task status for Task: 0_5 task_status: running { } call id: 2199023255605
+I20240701 09:22:38.657958 890571 graph_storage_service2.cc:291] Get task status success for Task: 0_5 task_status: running { } call id: 2199023255605 latency: 0ms.
+I20240701 09:22:38.659382 890185 graph_storage_service2.cc:344] Received get task status request for job_id: 0, task_id: 5 task_status: running { } call id: 1112396529713
+I20240701 09:22:38.733551 890185 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:22:38.734092 890185 vertex_import_read_exec_task.cc:125] ============================================ exchange schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:22:38.738510 890188 graph_storage_service2.cc:344] Received get task status request for job_id: 0, task_id: 0 task_status: pending { } call id: 2203318222905
+I20240701 09:22:38.738647 890571 graph_storage_service2.cc:276] Getting task status for Task: 0_0 task_status: running { } call id: 2203318222905
+I20240701 09:22:38.738709 890571 graph_storage_service2.cc:291] Get task status success for Task: 0_0 task_status: running { } call id: 2203318222905 latency: 0ms.
+I20240701 09:22:38.739609 890174 graph_storage_service2.cc:344] Received get task status request for job_id: 0, task_id: 0 task_status: running { } call id: 1099511627841
+I20240701 09:22:38.758008 890641 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/0-vertex-import-read/0 after running for 24 ms.
+I20240701 09:22:38.817302 890184 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/0-vertex-import-read/0 with state Finished after running for 83 ms.
+I20240701 09:22:38.818359 890641 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:22:38.818796 890571 graph_storage_service2.cc:276] Getting task status for Task: 0_0 task_status: finished { } call id: 1099511627841
+I20240701 09:22:38.818869 890571 graph_storage_service2.cc:291] Get task status success for Task: 0_0 task_status: finished { } call id: 1099511627841 latency: 79ms.
+I20240701 09:22:38.906983 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/27 after running for 256 ms.
+I20240701 09:22:38.907045 890578 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/27 with state Finished after running for 256 ms.
+I20240701 09:22:38.907235 890572 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/21 after running for 262 ms.
+I20240701 09:22:38.907270 890572 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/21 with state Finished after running for 262 ms.
+I20240701 09:22:38.908005 890574 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/20 after running for 261 ms.
+I20240701 09:22:38.908082 890574 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/20 with state Finished after running for 261 ms.
+I20240701 09:22:38.908496 890575 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/7 after running for 260 ms.
+I20240701 09:22:38.908550 890575 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/7 with state Finished after running for 260 ms.
+I20240701 09:22:38.911427 890576 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/15 after running for 262 ms.
+I20240701 09:22:38.911476 890576 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/15 with state Finished after running for 262 ms.
+I20240701 09:22:38.912298 890577 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/2 after running for 262 ms.
+I20240701 09:22:38.912545 890577 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/2 with state Finished after running for 262 ms.
+I20240701 09:22:38.912550 890573 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/8 after running for 266 ms.
+I20240701 09:22:38.912612 890573 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/8 with state Finished after running for 266 ms.
+I20240701 09:22:38.913818 890583 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/0 after running for 257 ms.
+I20240701 09:22:38.913862 890583 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/0 with state Finished after running for 257 ms.
+I20240701 09:22:38.914254 890581 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/26 after running for 260 ms.
+I20240701 09:22:38.914309 890581 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/26 with state Finished after running for 260 ms.
+I20240701 09:22:38.914577 890580 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/1 after running for 261 ms.
+I20240701 09:22:38.914645 890580 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/1 with state Finished after running for 261 ms.
+I20240701 09:22:38.919804 890579 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/14 after running for 267 ms.
+I20240701 09:22:38.919854 890579 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/14 with state Finished after running for 267 ms.
+I20240701 09:22:38.920660 890582 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/0-vertex-import-write/13 after running for 265 ms.
+I20240701 09:22:38.920703 890582 Task.cpp:1665] Terminating task local://localhost:0/task/0-vertex-import-write/13 with state Finished after running for 265 ms.
+I20240701 09:22:38.927107 890580 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:22:38.927371 890580 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:22:38.927703 890584 graph_storage_service2.cc:276] Getting task status for Task: 0_5 task_status: finished { } call id: 1112396529713
+I20240701 09:22:38.927760 890584 graph_storage_service2.cc:291] Get task status success for Task: 0_5 task_status: finished { } call id: 1112396529713 latency: 268ms.
+I20240701 09:22:38.961999 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962066 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962090 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962113 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962147 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962170 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962193 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962214 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962236 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962265 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962285 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:38.962307 890187 local_data_manager.cc:71] Successfully updated the vertex id index for job 0 with snapshot id: 1
+I20240701 09:22:44.604319 890173 graph_storage_service2.cc:344] Received get task status request for job_id: 1, task_id: 17 task_status: pending { } call id: 26401163968521
+==890148==WARNING: ASan is ignoring requested __asan_handle_no_return: stack type: default top: 0x7f644a9201c0; bottom 0x7f63f31e8000; size: 0x0000577381c0 (1467187648)
+False positive error reports may follow
+For details see https://github.com/google/sanitizers/issues/189
+I20240701 09:22:44.604674 890187 graph_storage_service2.cc:344] Received get task status request for job_id: 1, task_id: 13 task_status: pending { } call id: 1103806595077
+E20240701 09:22:44.604843 890173 graph_storage_service2.cc:361] [JobException] [InvalidTaskIdException] Task does not exist. TaskId 1_17
+E20240701 09:22:44.604862 890187 graph_storage_service2.cc:361] [JobException] [InvalidTaskIdException] Task does not exist. TaskId 1_13
+I20240701 09:22:49.563109 890172 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:22:49.564559 890179 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.21.snapshot-vid-index
+I20240701 09:22:49.565107 890180 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.8.snapshot-vid-index
+I20240701 09:22:49.565575 890173 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.20.snapshot-vid-index
+I20240701 09:22:49.566079 890172 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.7.snapshot-vid-index
+I20240701 09:22:49.566592 890187 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.15.snapshot-vid-index
+I20240701 09:22:49.567070 890177 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.2.snapshot-vid-index
+I20240701 09:22:49.567481 890179 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.27.snapshot-vid-index
+I20240701 09:22:49.567888 890180 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.14.snapshot-vid-index
+I20240701 09:22:49.568267 890173 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.1.snapshot-vid-index
+I20240701 09:22:49.568691 890172 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.26.snapshot-vid-index
+I20240701 09:22:49.569116 890187 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.13.snapshot-vid-index
+I20240701 09:22:49.569582 890177 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.0.snapshot-vid-index
+I20240701 09:22:49.570042 890179 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.21.snapshot-vtx-row-index
+I20240701 09:22:49.570513 890180 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.8.snapshot-vtx-row-index
+I20240701 09:22:49.570956 890173 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.20.snapshot-vtx-row-index
+I20240701 09:22:49.571389 890172 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.7.snapshot-vtx-row-index
+I20240701 09:22:49.571821 890187 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.15.snapshot-vtx-row-index
+I20240701 09:22:49.572234 890177 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.2.snapshot-vtx-row-index
+I20240701 09:22:49.572587 890179 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.27.snapshot-vtx-row-index
+I20240701 09:22:49.573026 890180 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.14.snapshot-vtx-row-index
+I20240701 09:22:49.573398 890173 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.1.snapshot-vtx-row-index
+I20240701 09:22:49.573807 890172 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.26.snapshot-vtx-row-index
+I20240701 09:22:49.574191 890187 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.13.snapshot-vtx-row-index
+I20240701 09:22:49.574594 890177 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 2.test.ns.g1.job_reuse_label_2.0.snapshot-vtx-row-index
+I20240701 09:22:49.574661 890177 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:22:49.580073 890179 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: pending { } call id: 24197845745697
+I20240701 09:22:49.580215 890584 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 24197845745697
+I20240701 09:22:49.580273 890584 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 24197845745697 latency: 0ms.
+W20240701 09:22:49.858217 890179 input_messenger.cpp:375] Fail to read from Socket{id=104 fd=12 addr=127.0.0.1:60614:55535} (0x631000050d00): Connection reset by peer [104]
+I20240701 09:22:50.346472 890187 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: pending { } call id: 22003117457449
+I20240701 09:22:50.346655 890584 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 22003117457449
+I20240701 09:22:50.346719 890584 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 22003117457449 latency: 0ms.
+I20240701 09:22:50.347007 890172 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 24 task_status: pending { } call id: 25301652340781
+E20240701 09:22:50.347164 890172 graph_storage_service2.cc:361] [JobException] [InvalidTaskIdException] Task does not exist. TaskId 2_24
+I20240701 09:22:50.348165 890179 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 15401752723465
+I20240701 09:22:50.849138 890584 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 15401752723465
+I20240701 09:22:50.849234 890584 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 15401752723465 latency: 501ms.
+I20240701 09:22:50.850155 890179 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 7709466296329
+I20240701 09:22:51.352134 890653 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 7709466296329
+I20240701 09:22:51.352234 890653 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 7709466296329 latency: 502ms.
+I20240701 09:22:51.353132 890187 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 25297357373449
+W20240701 09:22:51.396827 890582 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 21 sequence 0 max try count 8
+W20240701 09:22:51.397166 890580 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 8 sequence 0 max try count 8
+W20240701 09:22:51.397393 890577 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 20 sequence 0 max try count 8
+W20240701 09:22:51.397876 890579 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 7 sequence 0 max try count 8
+W20240701 09:22:51.398279 890581 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 15 sequence 0 max try count 8
+W20240701 09:22:51.398689 890583 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 2 sequence 0 max try count 8
+W20240701 09:22:51.398947 890573 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 27 sequence 0 max try count 8
+W20240701 09:22:51.399320 890576 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 14 sequence 0 max try count 8
+W20240701 09:22:51.399657 890578 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 1 sequence 0 max try count 8
+W20240701 09:22:51.399852 890575 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 26 sequence 0 max try count 8
+W20240701 09:22:51.400275 890574 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 13 sequence 0 max try count 8
+W20240701 09:22:51.400533 890572 local_exchange_source.cc:133] [getPartitionedOutput] brpc://127.0.0.1:55535/task/2-vertex-import-read/0 destination 0 sequence 0 max try count 8
+I20240701 09:22:51.854075 890584 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 25297357373449
+I20240701 09:22:51.854174 890584 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 25297357373449 latency: 501ms.
+I20240701 09:22:51.854704 890187 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 21998822490121
+I20240701 09:22:52.355612 890653 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 21998822490121
+I20240701 09:22:52.355701 890653 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 21998822490121 latency: 501ms.
+I20240701 09:22:52.356544 890173 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 7705171329061
+I20240701 09:22:52.857296 890584 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 7705171329061
+I20240701 09:22:52.857412 890584 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 7705171329061 latency: 501ms.
+I20240701 09:22:52.858049 890173 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 30799210479625
+I20240701 09:22:53.358968 890653 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 30799210479625
+I20240701 09:22:53.359071 890653 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 30799210479625 latency: 501ms.
+I20240701 09:22:53.359793 890180 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 30807800414225
+I20240701 09:22:53.860775 890584 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 30807800414225
+I20240701 09:22:53.860877 890584 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 30807800414225 latency: 501ms.
+I20240701 09:22:53.861721 890187 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 26405458935825
+I20240701 09:22:54.362572 890653 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 26405458935825
+I20240701 09:22:54.362668 890653 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 26405458935825 latency: 501ms.
+I20240701 09:22:54.363533 890187 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 6618544603145
+I20240701 09:22:54.864367 890584 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 6618544603145
+I20240701 09:22:54.864481 890584 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 6618544603145 latency: 501ms.
+I20240701 09:22:54.865517 890177 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 26409753903113
+I20240701 09:22:55.366611 890653 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 26409753903113
+I20240701 09:22:55.366703 890653 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 26409753903113 latency: 501ms.
+I20240701 09:22:55.367404 890179 graph_storage_service2.cc:344] Received get task status request for job_id: 2, task_id: 29 task_status: running { } call id: 7718056230925
+I20240701 09:22:55.504607 890173 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:22:55.506120 890177 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.21.snapshot-vid-index
+I20240701 09:22:55.506752 890172 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.8.snapshot-vid-index
+I20240701 09:22:55.507261 890180 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.20.snapshot-vid-index
+I20240701 09:22:55.507730 890173 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.7.snapshot-vid-index
+I20240701 09:22:55.508381 890187 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.15.snapshot-vid-index
+I20240701 09:22:55.508983 890179 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.2.snapshot-vid-index
+I20240701 09:22:55.509415 890177 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.27.snapshot-vid-index
+I20240701 09:22:55.509841 890172 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.14.snapshot-vid-index
+I20240701 09:22:55.510241 890180 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.1.snapshot-vid-index
+I20240701 09:22:55.510651 890173 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.26.snapshot-vid-index
+I20240701 09:22:55.511119 890187 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.13.snapshot-vid-index
+I20240701 09:22:55.511516 890179 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.0.snapshot-vid-index
+I20240701 09:22:55.512086 890177 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.21.snapshot-vtx-row-index
+I20240701 09:22:55.512512 890172 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.8.snapshot-vtx-row-index
+I20240701 09:22:55.512907 890180 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.20.snapshot-vtx-row-index
+I20240701 09:22:55.513336 890173 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.7.snapshot-vtx-row-index
+I20240701 09:22:55.513744 890187 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.15.snapshot-vtx-row-index
+I20240701 09:22:55.514194 890179 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.2.snapshot-vtx-row-index
+I20240701 09:22:55.514567 890177 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.27.snapshot-vtx-row-index
+I20240701 09:22:55.514955 890172 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.14.snapshot-vtx-row-index
+I20240701 09:22:55.515357 890180 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.1.snapshot-vtx-row-index
+I20240701 09:22:55.515741 890173 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.26.snapshot-vtx-row-index
+I20240701 09:22:55.516185 890187 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.13.snapshot-vtx-row-index
+I20240701 09:22:55.516547 890179 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 3.test.ns.g1.job_reuse_label_3.0.snapshot-vtx-row-index
+I20240701 09:22:55.516607 890179 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:22:55.522682 890177 graph_storage_service2.cc:344] Received get task status request for job_id: 3, task_id: 41 task_status: pending { } call id: 9912784519201
+I20240701 09:22:55.522810 890584 graph_storage_service2.cc:276] Getting task status for Task: 3_41 task_status: running { } call id: 9912784519201
+I20240701 09:22:55.522856 890584 graph_storage_service2.cc:291] Get task status success for Task: 3_41 task_status: running { } call id: 9912784519201 latency: 0ms.
+I20240701 09:22:55.523486 890172 graph_storage_service2.cc:344] Received get task status request for job_id: 3, task_id: 41 task_status: running { } call id: 4410931413061
+I20240701 09:22:55.551751 890177 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:22:55.552202 890177 vertex_import_read_exec_task.cc:125] ============================================ exchange schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:22:55.554147 890179 graph_storage_service2.cc:344] Received get task status request for job_id: 3, task_id: 37 task_status: pending { } call id: 4415226380345
+I20240701 09:22:55.554296 890584 graph_storage_service2.cc:276] Getting task status for Task: 3_37 task_status: running { } call id: 4415226380345
+I20240701 09:22:55.554368 890584 graph_storage_service2.cc:291] Get task status success for Task: 3_37 task_status: running { } call id: 4415226380345 latency: 0ms.
+I20240701 09:22:55.555395 890172 graph_storage_service2.cc:344] Received get task status request for job_id: 3, task_id: 37 task_status: running { } call id: 3337189589001
+I20240701 09:22:55.565793 890639 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/3-vertex-import-read/0 after running for 13 ms.
+I20240701 09:22:55.585163 890582 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/3-vertex-import-read/0 with state Finished after running for 33 ms.
+I20240701 09:22:55.585817 890639 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:22:55.586683 890654 graph_storage_service2.cc:276] Getting task status for Task: 3_37 task_status: finished { } call id: 3337189589001
+I20240701 09:22:55.589511 890654 graph_storage_service2.cc:291] Get task status success for Task: 3_37 task_status: finished { } call id: 3337189589001 latency: 34ms.
+I20240701 09:22:55.675143 890576 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/15 after running for 157 ms.
+I20240701 09:22:55.675290 890576 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/15 with state Finished after running for 157 ms.
+I20240701 09:22:55.679041 890583 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/27 after running for 160 ms.
+I20240701 09:22:55.679103 890583 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/27 with state Finished after running for 160 ms.
+I20240701 09:22:55.679677 890577 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/26 after running for 159 ms.
+I20240701 09:22:55.679739 890577 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/26 with state Finished after running for 159 ms.
+I20240701 09:22:55.682124 890580 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/13 after running for 161 ms.
+I20240701 09:22:55.682185 890580 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/13 with state Finished after running for 161 ms.
+I20240701 09:22:55.685431 890573 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/2 after running for 166 ms.
+I20240701 09:22:55.685490 890573 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/2 with state Finished after running for 166 ms.
+I20240701 09:22:55.685788 890581 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/14 after running for 166 ms.
+I20240701 09:22:55.685971 890581 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/14 with state Finished after running for 166 ms.
+I20240701 09:22:55.687474 890572 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/21 after running for 170 ms.
+I20240701 09:22:55.687527 890572 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/21 with state Finished after running for 170 ms.
+I20240701 09:22:55.688690 890582 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/0 after running for 167 ms.
+I20240701 09:22:55.688740 890582 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/0 with state Finished after running for 167 ms.
+I20240701 09:22:55.688798 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/7 after running for 170 ms.
+I20240701 09:22:55.688840 890578 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/7 with state Finished after running for 170 ms.
+I20240701 09:22:55.690428 890579 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/1 after running for 170 ms.
+I20240701 09:22:55.690487 890579 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/1 with state Finished after running for 170 ms.
+I20240701 09:22:55.693035 890574 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/8 after running for 176 ms.
+I20240701 09:22:55.693090 890574 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/8 with state Finished after running for 176 ms.
+I20240701 09:22:55.693555 890575 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/3-vertex-import-write/20 after running for 176 ms.
+I20240701 09:22:55.693593 890575 Task.cpp:1665] Terminating task local://localhost:0/task/3-vertex-import-write/20 with state Finished after running for 176 ms.
+I20240701 09:22:55.868585 890654 graph_storage_service2.cc:276] Getting task status for Task: 2_29 task_status: running { } call id: 7718056230925
+I20240701 09:22:55.868688 890654 graph_storage_service2.cc:291] Get task status success for Task: 2_29 task_status: running { } call id: 7718056230925 latency: 501ms.
+W20240701 09:22:55.896402 890175 input_messenger.cpp:375] Fail to read from Socket{id=714 fd=12 addr=127.0.0.1:55528:47116} (0x6310000c8800): Connection reset by peer [104]
+W20240701 09:22:55.896441 890182 input_messenger.cpp:375] Fail to read from Socket{id=8589934695 fd=13 addr=127.0.0.1:60622:55535} (0x631000050a80): Connection reset by peer [104]
+E20240701 09:22:55.896849 890572 meta_service_client.cc:721] MetaServiceClient call submitImportJobFiles() failed[E104]Fail to read from Socket{id=714 fd=12 addr=127.0.0.1:55528:47116} (0x0x6310000c8800): Connection reset by peer [R1][E111]Fail to connect Socket{id=816 addr=127.0.0.1:55528} (0x0x6310000dc800): Connection refused [R2][E112]Not connected to 127.0.0.1:55528 yet, server_id=17179869184 [R3][E112]Not connected to 127.0.0.1:55528 yet, server_id=17179869184
+I20240701 09:22:55.896886 890572 meta_service_client.cc:723] Retry submitImportJobFiles() after 1000ms
+I20240701 09:22:55.997067 890172 socket.cpp:2465] Checking Socket{id=17179869184 addr=127.0.0.1:55528} (0x631000028800)
+I20240701 09:22:56.868592 890175 graph_storage_service2.cc:344] Received get task status request for job_id: 3, task_id: 41 task_status: pending { } call id: 25305947308061
+I20240701 09:22:56.868816 890654 graph_storage_service2.cc:276] Getting task status for Task: 3_41 task_status: running { } call id: 25305947308061
+I20240701 09:22:56.868885 890654 graph_storage_service2.cc:291] Get task status success for Task: 3_41 task_status: running { } call id: 25305947308061 latency: 0ms.
+I20240701 09:22:56.869100 890184 graph_storage_service2.cc:344] Received get task status request for job_id: 3, task_id: 37 task_status: pending { } call id: 22028887261197
+I20240701 09:22:56.869206 890654 graph_storage_service2.cc:276] Getting task status for Task: 3_37 task_status: finished { } call id: 22028887261197
+I20240701 09:22:56.869263 890654 graph_storage_service2.cc:291] Get task status success for Task: 3_37 task_status: finished { } call id: 22028887261197 latency: 0ms.
+I20240701 09:22:56.874207 890178 graph_storage_service2.cc:344] Received get task status request for job_id: 3, task_id: 41 task_status: running { } call id: 25323127177225
+I20240701 09:22:56.904181 890572 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:22:56.904376 890572 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:22:56.904487 890653 graph_storage_service2.cc:276] Getting task status for Task: 3_41 task_status: finished { } call id: 4410931413061
+W20240701 09:22:56.904560 890653 graph_storage_service2.cc:283] Get task status for Task: 3_41 task_status: finished { } call id: 4410931413061 latency too high: 1381ms. This may cause client timeout. You may need to increase the max_wait_time_ms in the request, or increase the max_system_cpu_threads in the configuration file.
+I20240701 09:22:56.904568 890654 graph_storage_service2.cc:276] Getting task status for Task: 3_41 task_status: finished { } call id: 25323127177225
+I20240701 09:22:56.904616 890654 graph_storage_service2.cc:291] Get task status success for Task: 3_41 task_status: finished { } call id: 25323127177225 latency: 30ms.
+W20240701 09:22:56.904711 890650 http_rpc_protocol.cpp:954] Fail to write into Socket{id=8589934695 fd=13 addr=127.0.0.1:60622:55535} (0x631000050a80): Connection reset by peer [104]
+I20240701 09:22:57.097491 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097556 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097582 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097605 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097631 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097656 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097684 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097707 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097730 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097756 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097790 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:22:57.097818 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 3 with snapshot id: 1
+I20240701 09:23:01.487900 890189 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:01.489050 890182 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.21.snapshot-vid-index
+I20240701 09:23:01.489688 890175 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.8.snapshot-vid-index
+I20240701 09:23:01.490360 890184 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.20.snapshot-vid-index
+I20240701 09:23:01.491153 890178 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.7.snapshot-vid-index
+I20240701 09:23:01.491708 890176 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.15.snapshot-vid-index
+I20240701 09:23:01.492273 890189 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.2.snapshot-vid-index
+I20240701 09:23:01.492802 890182 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.27.snapshot-vid-index
+I20240701 09:23:01.493301 890175 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.14.snapshot-vid-index
+I20240701 09:23:01.493705 890184 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.1.snapshot-vid-index
+I20240701 09:23:01.494174 890178 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.26.snapshot-vid-index
+I20240701 09:23:01.494670 890176 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.13.snapshot-vid-index
+I20240701 09:23:01.495138 890189 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.0.snapshot-vid-index
+I20240701 09:23:01.495743 890182 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.21.snapshot-vtx-row-index
+I20240701 09:23:01.496174 890175 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.8.snapshot-vtx-row-index
+I20240701 09:23:01.496595 890184 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.20.snapshot-vtx-row-index
+I20240701 09:23:01.497046 890178 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.7.snapshot-vtx-row-index
+I20240701 09:23:01.497439 890176 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.15.snapshot-vtx-row-index
+I20240701 09:23:01.497864 890189 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.2.snapshot-vtx-row-index
+I20240701 09:23:01.498410 890182 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.27.snapshot-vtx-row-index
+I20240701 09:23:01.498785 890175 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.14.snapshot-vtx-row-index
+I20240701 09:23:01.499315 890184 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.1.snapshot-vtx-row-index
+I20240701 09:23:01.499713 890178 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.26.snapshot-vtx-row-index
+I20240701 09:23:01.500134 890176 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.13.snapshot-vtx-row-index
+I20240701 09:23:01.500527 890189 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 4.test.ns.g1.job_reuse_label_4.0.snapshot-vtx-row-index
+I20240701 09:23:01.500622 890189 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:01.506379 890182 graph_storage_service2.cc:344] Received get task status request for job_id: 4, task_id: 53 task_status: pending { } call id: 4436701216801
+I20240701 09:23:01.506549 890650 graph_storage_service2.cc:276] Getting task status for Task: 4_53 task_status: running { } call id: 4436701216801
+I20240701 09:23:01.506595 890650 graph_storage_service2.cc:291] Get task status success for Task: 4_53 task_status: running { } call id: 4436701216801 latency: 0ms.
+I20240701 09:23:01.507123 890175 graph_storage_service2.cc:344] Received get task status request for job_id: 4, task_id: 53 task_status: running { } call id: 6635724472353
+I20240701 09:23:01.542469 890176 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:01.542953 890176 vertex_import_read_exec_task.cc:125] ============================================ exchange schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:01.545630 890189 graph_storage_service2.cc:344] Received get task status request for job_id: 4, task_id: 48 task_status: pending { } call id: 23132693856297
+I20240701 09:23:01.545758 890650 graph_storage_service2.cc:276] Getting task status for Task: 4_48 task_status: running { } call id: 23132693856297
+I20240701 09:23:01.545802 890650 graph_storage_service2.cc:291] Get task status success for Task: 4_48 task_status: running { } call id: 23132693856297 latency: 0ms.
+I20240701 09:23:01.548956 890182 graph_storage_service2.cc:344] Received get task status request for job_id: 4, task_id: 48 task_status: running { } call id: 7730941132809
+I20240701 09:23:01.559068 890640 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/4-vertex-import-read/0 after running for 16 ms.
+I20240701 09:23:01.584493 890178 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/4-vertex-import-read/0 with state Finished after running for 41 ms.
+I20240701 09:23:01.585099 890582 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:01.585261 890650 graph_storage_service2.cc:276] Getting task status for Task: 4_48 task_status: finished { } call id: 7730941132809
+I20240701 09:23:01.585337 890650 graph_storage_service2.cc:291] Get task status success for Task: 4_48 task_status: finished { } call id: 7730941132809 latency: 37ms.
+I20240701 09:23:01.619474 890583 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/21 after running for 118 ms.
+I20240701 09:23:01.620620 890583 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/21 with state Finished after running for 119 ms.
+I20240701 09:23:01.649181 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/1 after running for 145 ms.
+I20240701 09:23:01.649260 890578 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/1 with state Finished after running for 145 ms.
+I20240701 09:23:01.652704 890582 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/26 after running for 148 ms.
+I20240701 09:23:01.653214 890582 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/26 with state Finished after running for 149 ms.
+I20240701 09:23:01.659119 890574 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/7 after running for 157 ms.
+I20240701 09:23:01.659428 890574 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/7 with state Finished after running for 157 ms.
+I20240701 09:23:01.659647 890581 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/8 after running for 158 ms.
+I20240701 09:23:01.659786 890581 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/8 with state Finished after running for 158 ms.
+I20240701 09:23:01.662015 890579 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/15 after running for 160 ms.
+I20240701 09:23:01.662077 890579 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/15 with state Finished after running for 160 ms.
+I20240701 09:23:01.662113 890580 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/0 after running for 157 ms.
+I20240701 09:23:01.662159 890580 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/0 with state Finished after running for 157 ms.
+I20240701 09:23:01.663209 890577 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/14 after running for 159 ms.
+I20240701 09:23:01.663265 890577 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/14 with state Finished after running for 159 ms.
+I20240701 09:23:01.663844 890575 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/2 after running for 160 ms.
+I20240701 09:23:01.664090 890575 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/2 with state Finished after running for 161 ms.
+I20240701 09:23:01.665899 890573 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/27 after running for 162 ms.
+I20240701 09:23:01.665990 890573 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/27 with state Finished after running for 163 ms.
+I20240701 09:23:01.666998 890572 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/20 after running for 165 ms.
+I20240701 09:23:01.667042 890572 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/20 with state Finished after running for 165 ms.
+I20240701 09:23:01.667110 890639 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/4-vertex-import-write/13 after running for 162 ms.
+I20240701 09:23:01.667148 890639 Task.cpp:1665] Terminating task local://localhost:0/task/4-vertex-import-write/13 with state Finished after running for 162 ms.
+I20240701 09:23:01.673532 890575 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:01.673669 890575 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:01.673799 890650 graph_storage_service2.cc:276] Getting task status for Task: 4_53 task_status: finished { } call id: 6635724472353
+I20240701 09:23:01.673856 890650 graph_storage_service2.cc:291] Get task status success for Task: 4_53 task_status: finished { } call id: 6635724472353 latency: 166ms.
+I20240701 09:23:02.888830 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.888906 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.888943 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.888970 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.888993 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.889016 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.889045 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.889066 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.889091 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.889112 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.889135 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:02.889175 890180 local_data_manager.cc:71] Successfully updated the vertex id index for job 4 with snapshot id: 1
+I20240701 09:23:07.509199 890177 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:07.510390 890173 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.21.snapshot-vid-index
+I20240701 09:23:07.510941 890187 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.8.snapshot-vid-index
+I20240701 09:23:07.511487 890180 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.20.snapshot-vid-index
+I20240701 09:23:07.511893 890177 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.7.snapshot-vid-index
+I20240701 09:23:07.512391 890172 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.15.snapshot-vid-index
+I20240701 09:23:07.512866 890179 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.2.snapshot-vid-index
+I20240701 09:23:07.513306 890173 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.27.snapshot-vid-index
+I20240701 09:23:07.513680 890187 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.14.snapshot-vid-index
+I20240701 09:23:07.514196 890180 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.1.snapshot-vid-index
+I20240701 09:23:07.514577 890177 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.26.snapshot-vid-index
+I20240701 09:23:07.514969 890172 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.13.snapshot-vid-index
+I20240701 09:23:07.515332 890179 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.0.snapshot-vid-index
+I20240701 09:23:07.515810 890173 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.21.snapshot-vtx-row-index
+I20240701 09:23:07.516202 890187 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.8.snapshot-vtx-row-index
+I20240701 09:23:07.516638 890180 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.20.snapshot-vtx-row-index
+I20240701 09:23:07.517053 890177 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.7.snapshot-vtx-row-index
+I20240701 09:23:07.517406 890172 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.15.snapshot-vtx-row-index
+I20240701 09:23:07.517755 890179 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.2.snapshot-vtx-row-index
+I20240701 09:23:07.518155 890173 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.27.snapshot-vtx-row-index
+I20240701 09:23:07.518570 890187 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.14.snapshot-vtx-row-index
+I20240701 09:23:07.518996 890180 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.1.snapshot-vtx-row-index
+I20240701 09:23:07.519322 890177 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.26.snapshot-vtx-row-index
+I20240701 09:23:07.519677 890172 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.13.snapshot-vtx-row-index
+I20240701 09:23:07.520049 890179 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 5.test.ns.g1.job_reuse_label_5.0.snapshot-vtx-row-index
+I20240701 09:23:07.520128 890179 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:07.524724 890173 graph_storage_service2.cc:344] Received get task status request for job_id: 5, task_id: 65 task_status: pending { } call id: 26439818674209
+I20240701 09:23:07.524945 890650 graph_storage_service2.cc:276] Getting task status for Task: 5_65 task_status: running { } call id: 26439818674209
+I20240701 09:23:07.524995 890650 graph_storage_service2.cc:291] Get task status success for Task: 5_65 task_status: running { } call id: 26439818674209 latency: 0ms.
+I20240701 09:23:07.525509 890187 graph_storage_service2.cc:344] Received get task status request for job_id: 5, task_id: 65 task_status: running { } call id: 3367254360093
+I20240701 09:23:07.553167 890180 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:07.553637 890180 vertex_import_read_exec_task.cc:125] ============================================ exchange schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:07.555747 890172 graph_storage_service2.cc:344] Received get task status request for job_id: 5, task_id: 62 task_status: pending { } call id: 3384434229289
+I20240701 09:23:07.555954 890650 graph_storage_service2.cc:276] Getting task status for Task: 5_62 task_status: running { } call id: 3384434229289
+I20240701 09:23:07.556002 890650 graph_storage_service2.cc:291] Get task status success for Task: 5_62 task_status: running { } call id: 3384434229289 latency: 1ms.
+I20240701 09:23:07.556650 890179 graph_storage_service2.cc:344] Received get task status request for job_id: 5, task_id: 62 task_status: running { } call id: 31898722107433
+I20240701 09:23:07.566313 890576 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/5-vertex-import-read/0 after running for 12 ms.
+I20240701 09:23:07.586658 890640 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/5-vertex-import-read/0 with state Finished after running for 32 ms.
+I20240701 09:23:07.586818 890576 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:07.586987 890650 graph_storage_service2.cc:276] Getting task status for Task: 5_62 task_status: finished { } call id: 31898722107433
+I20240701 09:23:07.587066 890650 graph_storage_service2.cc:291] Get task status success for Task: 5_62 task_status: finished { } call id: 31898722107433 latency: 31ms.
+I20240701 09:23:07.655076 890573 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/14 after running for 133 ms.
+I20240701 09:23:07.656011 890573 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/14 with state Finished after running for 134 ms.
+I20240701 09:23:07.659972 890577 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/2 after running for 139 ms.
+I20240701 09:23:07.660037 890640 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/0 after running for 137 ms.
+I20240701 09:23:07.660038 890577 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/2 with state Finished after running for 139 ms.
+I20240701 09:23:07.660091 890640 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/0 with state Finished after running for 137 ms.
+I20240701 09:23:07.664799 890579 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/8 after running for 144 ms.
+I20240701 09:23:07.664870 890579 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/8 with state Finished after running for 144 ms.
+I20240701 09:23:07.664985 890572 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/7 after running for 144 ms.
+I20240701 09:23:07.666062 890572 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/7 with state Finished after running for 145 ms.
+I20240701 09:23:07.667990 890580 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/27 after running for 146 ms.
+I20240701 09:23:07.668046 890580 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/27 with state Finished after running for 146 ms.
+I20240701 09:23:07.668047 890574 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/26 after running for 145 ms.
+I20240701 09:23:07.668119 890574 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/26 with state Finished after running for 145 ms.
+I20240701 09:23:07.668148 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/15 after running for 147 ms.
+I20240701 09:23:07.668205 890578 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/15 with state Finished after running for 147 ms.
+I20240701 09:23:07.669324 890582 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/21 after running for 149 ms.
+I20240701 09:23:07.669435 890582 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/21 with state Finished after running for 149 ms.
+I20240701 09:23:07.670754 890575 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/13 after running for 147 ms.
+I20240701 09:23:07.670825 890575 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/13 with state Finished after running for 147 ms.
+I20240701 09:23:07.671249 890639 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/1 after running for 148 ms.
+I20240701 09:23:07.671283 890639 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/1 with state Finished after running for 148 ms.
+I20240701 09:23:07.671432 890581 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/5-vertex-import-write/20 after running for 150 ms.
+I20240701 09:23:07.671476 890581 Task.cpp:1665] Terminating task local://localhost:0/task/5-vertex-import-write/20 with state Finished after running for 150 ms.
+I20240701 09:23:07.679347 890572 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:07.679512 890572 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:07.679641 890650 graph_storage_service2.cc:276] Getting task status for Task: 5_65 task_status: finished { } call id: 3367254360093
+I20240701 09:23:07.679689 890650 graph_storage_service2.cc:291] Get task status success for Task: 5_65 task_status: finished { } call id: 3367254360093 latency: 154ms.
+I20240701 09:23:11.339390 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339454 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339481 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339507 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339531 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339555 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339586 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339608 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339640 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339663 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339685 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:11.339711 890176 local_data_manager.cc:71] Successfully updated the vertex id index for job 5 with snapshot id: 1
+I20240701 09:23:13.525679 890189 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:13.527170 890184 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.21.snapshot-vid-index
+I20240701 09:23:13.527719 890178 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.8.snapshot-vid-index
+I20240701 09:23:13.528227 890175 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.20.snapshot-vid-index
+I20240701 09:23:13.528635 890189 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.7.snapshot-vid-index
+I20240701 09:23:13.529038 890176 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.15.snapshot-vid-index
+I20240701 09:23:13.529417 890182 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.2.snapshot-vid-index
+I20240701 09:23:13.529879 890184 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.27.snapshot-vid-index
+I20240701 09:23:13.530369 890178 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.14.snapshot-vid-index
+I20240701 09:23:13.530791 890175 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.1.snapshot-vid-index
+I20240701 09:23:13.531214 890189 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.26.snapshot-vid-index
+I20240701 09:23:13.531606 890176 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.13.snapshot-vid-index
+I20240701 09:23:13.531996 890182 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.0.snapshot-vid-index
+I20240701 09:23:13.532455 890184 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.21.snapshot-vtx-row-index
+I20240701 09:23:13.532899 890178 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.8.snapshot-vtx-row-index
+I20240701 09:23:13.533268 890175 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.20.snapshot-vtx-row-index
+I20240701 09:23:13.533654 890189 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.7.snapshot-vtx-row-index
+I20240701 09:23:13.534085 890176 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.15.snapshot-vtx-row-index
+I20240701 09:23:13.534442 890182 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.2.snapshot-vtx-row-index
+I20240701 09:23:13.534821 890184 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.27.snapshot-vtx-row-index
+I20240701 09:23:13.535195 890178 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.14.snapshot-vtx-row-index
+I20240701 09:23:13.535532 890175 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.1.snapshot-vtx-row-index
+I20240701 09:23:13.535883 890189 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.26.snapshot-vtx-row-index
+I20240701 09:23:13.536258 890176 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.13.snapshot-vtx-row-index
+I20240701 09:23:13.536585 890182 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 6.test.ns.g1.job_reuse_label_6.0.snapshot-vtx-row-index
+I20240701 09:23:13.536640 890182 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:13.541715 890184 graph_storage_service2.cc:344] Received get task status request for job_id: 6, task_id: 77 task_status: pending { } call id: 3401614098465
+I20240701 09:23:13.541873 890653 graph_storage_service2.cc:276] Getting task status for Task: 6_77 task_status: running { } call id: 3401614098465
+I20240701 09:23:13.541956 890653 graph_storage_service2.cc:291] Get task status success for Task: 6_77 task_status: running { } call id: 3401614098465 latency: 0ms.
+I20240701 09:23:13.542456 890178 graph_storage_service2.cc:344] Received get task status request for job_id: 6, task_id: 77 task_status: running { } call id: 23167053594657
+I20240701 09:23:13.575850 890189 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:13.576212 890189 vertex_import_read_exec_task.cc:125] ============================================ exchange schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:13.580787 890182 graph_storage_service2.cc:344] Received get task status request for job_id: 6, task_id: 72 task_status: pending { } call id: 3410204033065
+I20240701 09:23:13.580942 890653 graph_storage_service2.cc:276] Getting task status for Task: 6_72 task_status: running { } call id: 3410204033065
+I20240701 09:23:13.580986 890653 graph_storage_service2.cc:291] Get task status success for Task: 6_72 task_status: running { } call id: 3410204033065 latency: 0ms.
+I20240701 09:23:13.585897 890178 graph_storage_service2.cc:344] Received get task status request for job_id: 6, task_id: 72 task_status: running { } call id: 31915901976585
+I20240701 09:23:13.591528 890638 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/6-vertex-import-read/0 after running for 15 ms.
+I20240701 09:23:13.622812 890180 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/6-vertex-import-read/0 with state Finished after running for 46 ms.
+I20240701 09:23:13.623457 890580 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:13.623625 890653 graph_storage_service2.cc:276] Getting task status for Task: 6_72 task_status: finished { } call id: 31915901976585
+I20240701 09:23:13.623674 890653 graph_storage_service2.cc:291] Get task status success for Task: 6_72 task_status: finished { } call id: 31915901976585 latency: 38ms.
+I20240701 09:23:13.696676 890582 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/13 after running for 156 ms.
+I20240701 09:23:13.696871 890582 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/13 with state Finished after running for 156 ms.
+I20240701 09:23:13.701403 890639 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/7 after running for 163 ms.
+I20240701 09:23:13.701464 890639 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/7 with state Finished after running for 163 ms.
+I20240701 09:23:13.706110 890574 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/8 after running for 169 ms.
+I20240701 09:23:13.706284 890574 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/8 with state Finished after running for 169 ms.
+I20240701 09:23:13.711547 890581 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/21 after running for 174 ms.
+I20240701 09:23:13.711607 890581 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/21 with state Finished after running for 174 ms.
+I20240701 09:23:13.716009 890579 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/1 after running for 177 ms.
+I20240701 09:23:13.716187 890579 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/1 with state Finished after running for 177 ms.
+I20240701 09:23:13.718580 890577 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/27 after running for 179 ms.
+I20240701 09:23:13.718631 890577 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/27 with state Finished after running for 179 ms.
+I20240701 09:23:13.719183 890575 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/20 after running for 182 ms.
+I20240701 09:23:13.719241 890575 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/20 with state Finished after running for 182 ms.
+I20240701 09:23:13.720288 890572 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/26 after running for 180 ms.
+I20240701 09:23:13.720355 890572 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/26 with state Finished after running for 180 ms.
+I20240701 09:23:13.720465 890640 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/14 after running for 181 ms.
+I20240701 09:23:13.720515 890640 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/14 with state Finished after running for 181 ms.
+I20240701 09:23:13.721630 890638 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/15 after running for 183 ms.
+I20240701 09:23:13.721678 890638 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/15 with state Finished after running for 183 ms.
+I20240701 09:23:13.723421 890641 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/0 after running for 183 ms.
+I20240701 09:23:13.723475 890641 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/0 with state Finished after running for 183 ms.
+I20240701 09:23:13.727357 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/6-vertex-import-write/2 after running for 189 ms.
+I20240701 09:23:13.727401 890578 Task.cpp:1665] Terminating task local://localhost:0/task/6-vertex-import-write/2 with state Finished after running for 189 ms.
+I20240701 09:23:13.734660 890572 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:13.734856 890572 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:13.735013 890654 graph_storage_service2.cc:276] Getting task status for Task: 6_77 task_status: finished { } call id: 23167053594657
+I20240701 09:23:13.735072 890654 graph_storage_service2.cc:291] Get task status success for Task: 6_77 task_status: finished { } call id: 23167053594657 latency: 193ms.
+I20240701 09:23:19.515283 890188 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:19.516535 890188 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.21.snapshot-vid-index
+I20240701 09:23:19.517014 890185 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.8.snapshot-vid-index
+I20240701 09:23:19.517458 890174 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.20.snapshot-vid-index
+I20240701 09:23:19.517872 890188 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.7.snapshot-vid-index
+I20240701 09:23:19.518368 890185 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.15.snapshot-vid-index
+I20240701 09:23:19.518790 890174 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.2.snapshot-vid-index
+I20240701 09:23:19.519194 890188 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.27.snapshot-vid-index
+I20240701 09:23:19.519570 890185 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.14.snapshot-vid-index
+I20240701 09:23:19.519937 890174 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.1.snapshot-vid-index
+I20240701 09:23:19.520341 890188 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.26.snapshot-vid-index
+I20240701 09:23:19.520717 890185 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.13.snapshot-vid-index
+I20240701 09:23:19.521190 890174 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.0.snapshot-vid-index
+I20240701 09:23:19.521662 890188 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.21.snapshot-vtx-row-index
+I20240701 09:23:19.522092 890185 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.8.snapshot-vtx-row-index
+I20240701 09:23:19.522423 890174 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.20.snapshot-vtx-row-index
+I20240701 09:23:19.522778 890188 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.7.snapshot-vtx-row-index
+I20240701 09:23:19.523140 890185 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.15.snapshot-vtx-row-index
+I20240701 09:23:19.523497 890174 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.2.snapshot-vtx-row-index
+I20240701 09:23:19.523970 890188 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.27.snapshot-vtx-row-index
+I20240701 09:23:19.524370 890185 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.14.snapshot-vtx-row-index
+I20240701 09:23:19.524734 890174 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.1.snapshot-vtx-row-index
+I20240701 09:23:19.525157 890188 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.26.snapshot-vtx-row-index
+I20240701 09:23:19.525525 890185 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.13.snapshot-vtx-row-index
+I20240701 09:23:19.525868 890174 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 7.test.ns.g1.vlabel_1_job_reuse_label_7.0.snapshot-vtx-row-index
+I20240701 09:23:19.525939 890174 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:19.530134 890188 graph_storage_service2.cc:344] Received get task status request for job_id: 7, task_id: 89 task_status: pending { } call id: 35188667056185
+I20240701 09:23:19.530263 890654 graph_storage_service2.cc:276] Getting task status for Task: 7_89 task_status: running { } call id: 35188667056185
+I20240701 09:23:19.530318 890654 graph_storage_service2.cc:291] Get task status success for Task: 7_89 task_status: running { } call id: 35188667056185 latency: 0ms.
+I20240701 09:23:19.530995 890185 graph_storage_service2.cc:344] Received get task status request for job_id: 7, task_id: 89 task_status: running { } call id: 34093450395705
+I20240701 09:23:19.557884 890188 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:19.558202 890188 vertex_import_read_exec_task.cc:125] ============================================ exchange schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:19.559962 890185 graph_storage_service2.cc:344] Received get task status request for job_id: 7, task_id: 85 task_status: pending { } call id: 33015413604361
+I20240701 09:23:19.560119 890654 graph_storage_service2.cc:276] Getting task status for Task: 7_85 task_status: running { } call id: 33015413604361
+I20240701 09:23:19.560191 890654 graph_storage_service2.cc:291] Get task status success for Task: 7_85 task_status: running { } call id: 33015413604361 latency: 1ms.
+I20240701 09:23:19.560889 890174 graph_storage_service2.cc:344] Received get task status request for job_id: 7, task_id: 85 task_status: running { } call id: 24275155157053
+I20240701 09:23:19.565722 890582 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/7-vertex-import-read/0 after running for 7 ms.
+I20240701 09:23:19.593227 890638 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/7-vertex-import-read/0 with state Finished after running for 35 ms.
+I20240701 09:23:19.593452 890572 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:19.593631 890654 graph_storage_service2.cc:276] Getting task status for Task: 7_85 task_status: finished { } call id: 24275155157053
+I20240701 09:23:19.593703 890654 graph_storage_service2.cc:291] Get task status success for Task: 7_85 task_status: finished { } call id: 24275155157053 latency: 33ms.
+I20240701 09:23:19.659592 890577 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/13 after running for 130 ms.
+I20240701 09:23:19.659682 890577 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/13 with state Finished after running for 130 ms.
+I20240701 09:23:19.661144 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/2 after running for 134 ms.
+I20240701 09:23:19.661206 890578 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/2 with state Finished after running for 134 ms.
+I20240701 09:23:19.664947 890579 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/8 after running for 138 ms.
+I20240701 09:23:19.665652 890579 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/8 with state Finished after running for 139 ms.
+I20240701 09:23:19.665860 890641 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/26 after running for 137 ms.
+I20240701 09:23:19.665899 890641 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/26 with state Finished after running for 137 ms.
+I20240701 09:23:19.670158 890580 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/21 after running for 144 ms.
+I20240701 09:23:19.670233 890580 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/21 with state Finished after running for 144 ms.
+I20240701 09:23:19.671391 890574 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/7 after running for 144 ms.
+I20240701 09:23:19.671447 890574 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/7 with state Finished after running for 144 ms.
+I20240701 09:23:19.671646 890575 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/0 after running for 142 ms.
+I20240701 09:23:19.671700 890575 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/0 with state Finished after running for 142 ms.
+I20240701 09:23:19.673342 890581 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/27 after running for 145 ms.
+I20240701 09:23:19.673626 890581 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/27 with state Finished after running for 145 ms.
+I20240701 09:23:19.673681 890638 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/15 after running for 146 ms.
+I20240701 09:23:19.673722 890638 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/15 with state Finished after running for 146 ms.
+I20240701 09:23:19.674728 890639 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/1 after running for 146 ms.
+I20240701 09:23:19.674788 890639 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/1 with state Finished after running for 146 ms.
+I20240701 09:23:19.674867 890572 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/14 after running for 146 ms.
+I20240701 09:23:19.674911 890572 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/14 with state Finished after running for 146 ms.
+I20240701 09:23:19.677137 890640 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/7-vertex-import-write/20 after running for 151 ms.
+I20240701 09:23:19.677191 890640 Task.cpp:1665] Terminating task local://localhost:0/task/7-vertex-import-write/20 with state Finished after running for 151 ms.
+I20240701 09:23:19.684559 890638 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:19.684734 890638 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:19.684892 890654 graph_storage_service2.cc:276] Getting task status for Task: 7_89 task_status: finished { } call id: 34093450395705
+I20240701 09:23:19.684973 890654 graph_storage_service2.cc:291] Get task status success for Task: 7_89 task_status: finished { } call id: 34093450395705 latency: 154ms.
+I20240701 09:23:19.795228 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795302 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795351 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795399 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795436 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795476 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795511 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795553 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795588 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795624 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795662 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:19.795694 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 7 with snapshot id: 1
+I20240701 09:23:20.603363 890189 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:20.604235 890178 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.21.snapshot-vid-index
+I20240701 09:23:20.604676 890182 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.8.snapshot-vid-index
+I20240701 09:23:20.605147 890176 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.20.snapshot-vid-index
+I20240701 09:23:20.605751 890184 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.7.snapshot-vid-index
+I20240701 09:23:20.606215 890175 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.15.snapshot-vid-index
+I20240701 09:23:20.606611 890189 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.2.snapshot-vid-index
+I20240701 09:23:20.607138 890178 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.27.snapshot-vid-index
+I20240701 09:23:20.607583 890182 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.14.snapshot-vid-index
+I20240701 09:23:20.608022 890176 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.1.snapshot-vid-index
+I20240701 09:23:20.608471 890184 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.26.snapshot-vid-index
+I20240701 09:23:20.608999 890175 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.13.snapshot-vid-index
+I20240701 09:23:20.609377 890189 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.0.snapshot-vid-index
+I20240701 09:23:20.609885 890178 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.21.snapshot-vtx-row-index
+I20240701 09:23:20.610419 890182 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.8.snapshot-vtx-row-index
+I20240701 09:23:20.610852 890176 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.20.snapshot-vtx-row-index
+I20240701 09:23:20.611274 890184 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.7.snapshot-vtx-row-index
+I20240701 09:23:20.611790 890175 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.15.snapshot-vtx-row-index
+I20240701 09:23:20.612313 890189 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.2.snapshot-vtx-row-index
+I20240701 09:23:20.612802 890178 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.27.snapshot-vtx-row-index
+I20240701 09:23:20.613215 890182 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.14.snapshot-vtx-row-index
+I20240701 09:23:20.613613 890176 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.1.snapshot-vtx-row-index
+I20240701 09:23:20.614069 890184 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.26.snapshot-vtx-row-index
+I20240701 09:23:20.614485 890175 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.13.snapshot-vtx-row-index
+I20240701 09:23:20.614914 890189 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 8.test.ns.g1.vlabel_2_job_reuse_label_7.0.snapshot-vtx-row-index
+I20240701 09:23:20.615005 890189 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:20.620864 890178 graph_storage_service2.cc:344] Received get task status request for job_id: 8, task_id: 101 task_status: pending { } call id: 3448858738721
+I20240701 09:23:20.620990 890654 graph_storage_service2.cc:276] Getting task status for Task: 8_101 task_status: running { } call id: 3448858738721
+I20240701 09:23:20.621062 890654 graph_storage_service2.cc:291] Get task status success for Task: 8_101 task_status: running { } call id: 3448858738721 latency: 1ms.
+I20240701 09:23:20.621567 890182 graph_storage_service2.cc:344] Received get task status request for job_id: 8, task_id: 101 task_status: running { } call id: 33028298506273
+I20240701 09:23:20.649837 890184 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:20.650331 890184 vertex_import_read_exec_task.cc:125] ============================================ exchange schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:20.652695 890175 graph_storage_service2.cc:344] Received get task status request for job_id: 8, task_id: 98 task_status: pending { } call id: 22093311770665
+I20240701 09:23:20.652853 890654 graph_storage_service2.cc:276] Getting task status for Task: 8_98 task_status: running { } call id: 22093311770665
+I20240701 09:23:20.652944 890654 graph_storage_service2.cc:291] Get task status success for Task: 8_98 task_status: running { } call id: 22093311770665 latency: 0ms.
+I20240701 09:23:20.653543 890189 graph_storage_service2.cc:344] Received get task status request for job_id: 8, task_id: 98 task_status: running { } call id: 35210141892649
+I20240701 09:23:20.657613 890582 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/8-vertex-import-read/0 after running for 7 ms.
+I20240701 09:23:20.740109 890175 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/8-vertex-import-read/0 with state Finished after running for 90 ms.
+I20240701 09:23:20.740279 890582 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:20.752535 890654 graph_storage_service2.cc:276] Getting task status for Task: 8_98 task_status: finished { } call id: 35210141892649
+I20240701 09:23:20.752630 890654 graph_storage_service2.cc:291] Get task status success for Task: 8_98 task_status: finished { } call id: 35210141892649 latency: 99ms.
+I20240701 09:23:20.772966 890572 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/7 after running for 157 ms.
+I20240701 09:23:20.773037 890572 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/7 with state Finished after running for 157 ms.
+I20240701 09:23:20.774850 890640 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/21 after running for 159 ms.
+I20240701 09:23:20.774905 890640 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/21 with state Finished after running for 159 ms.
+I20240701 09:23:20.788036 890641 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/26 after running for 169 ms.
+I20240701 09:23:20.788111 890641 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/26 with state Finished after running for 169 ms.
+I20240701 09:23:20.789886 890639 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/1 after running for 171 ms.
+I20240701 09:23:20.789964 890639 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/1 with state Finished after running for 171 ms.
+I20240701 09:23:20.790197 890579 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/2 after running for 173 ms.
+I20240701 09:23:20.790239 890579 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/2 with state Finished after running for 173 ms.
+I20240701 09:23:20.790786 890638 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/8 after running for 174 ms.
+I20240701 09:23:20.790825 890638 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/8 with state Finished after running for 174 ms.
+I20240701 09:23:20.790998 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/27 after running for 173 ms.
+I20240701 09:23:20.791064 890578 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/27 with state Finished after running for 173 ms.
+I20240701 09:23:20.792413 890575 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/15 after running for 175 ms.
+I20240701 09:23:20.792510 890575 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/15 with state Finished after running for 175 ms.
+I20240701 09:23:20.793077 890581 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/20 after running for 177 ms.
+I20240701 09:23:20.793141 890581 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/20 with state Finished after running for 177 ms.
+I20240701 09:23:20.795150 890577 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/13 after running for 176 ms.
+I20240701 09:23:20.795197 890577 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/13 with state Finished after running for 176 ms.
+I20240701 09:23:20.795248 890574 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/14 after running for 177 ms.
+I20240701 09:23:20.795285 890574 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/14 with state Finished after running for 177 ms.
+I20240701 09:23:20.796900 890580 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/8-vertex-import-write/0 after running for 177 ms.
+I20240701 09:23:20.796964 890580 Task.cpp:1665] Terminating task local://localhost:0/task/8-vertex-import-write/0 with state Finished after running for 177 ms.
+I20240701 09:23:20.803613 890581 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:20.803745 890581 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:20.803894 890654 graph_storage_service2.cc:276] Getting task status for Task: 8_101 task_status: finished { } call id: 33028298506273
+I20240701 09:23:20.803982 890654 graph_storage_service2.cc:291] Get task status success for Task: 8_101 task_status: finished { } call id: 33028298506273 latency: 182ms.
+I20240701 09:23:20.886673 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.886749 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.886798 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.886833 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.886879 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.886919 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.886983 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.887022 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.887054 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.887089 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.887138 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:20.887177 890175 local_data_manager.cc:71] Successfully updated the vertex id index for job 8 with snapshot id: 1
+I20240701 09:23:21.691723 890175 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:21.692677 890176 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.0.snapshot-edge-row-index
+I20240701 09:23:21.693185 890178 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.1.snapshot-edge-row-index
+I20240701 09:23:21.693661 890189 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.2.snapshot-edge-row-index
+I20240701 09:23:21.694118 890182 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.7.snapshot-edge-row-index
+I20240701 09:23:21.694578 890184 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.8.snapshot-edge-row-index
+I20240701 09:23:21.695011 890175 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.13.snapshot-edge-row-index
+I20240701 09:23:21.695420 890176 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.14.snapshot-edge-row-index
+I20240701 09:23:21.695785 890178 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.15.snapshot-edge-row-index
+I20240701 09:23:21.696214 890189 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.20.snapshot-edge-row-index
+I20240701 09:23:21.696605 890182 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.21.snapshot-edge-row-index
+I20240701 09:23:21.697072 890184 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.26.snapshot-edge-row-index
+I20240701 09:23:21.697417 890175 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_7.27.snapshot-edge-row-index
+I20240701 09:23:21.697489 890175 edge_import_write_exec_task.cc:153] =========================== exchange schema ===========================
+ROW<__srcid__:BIGINT,__dstid__:BIGINT,int32:INTEGER,float64:DOUBLE>
+I20240701 09:23:21.702982 890176 graph_storage_service2.cc:344] Received get task status request for job_id: 9, task_id: 116 task_status: pending { } call id: 22110491639825
+I20240701 09:23:21.703099 890654 graph_storage_service2.cc:276] Getting task status for Task: 9_116 task_status: running { } call id: 22110491639825
+I20240701 09:23:21.703153 890654 graph_storage_service2.cc:291] Get task status success for Task: 9_116 task_status: running { } call id: 22110491639825 latency: 1ms.
+I20240701 09:23:21.703670 890178 graph_storage_service2.cc:344] Received get task status request for job_id: 9, task_id: 116 task_status: running { } call id: 23205708300313
+I20240701 09:23:21.723798 890182 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:21.724709 890175 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.0.snapshot-edge-row-index
+I20240701 09:23:21.725188 890176 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.1.snapshot-edge-row-index
+I20240701 09:23:21.725622 890178 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.2.snapshot-edge-row-index
+I20240701 09:23:21.726126 890189 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.7.snapshot-edge-row-index
+I20240701 09:23:21.726598 890182 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.8.snapshot-edge-row-index
+I20240701 09:23:21.727047 890175 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.13.snapshot-edge-row-index
+I20240701 09:23:21.727486 890176 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.14.snapshot-edge-row-index
+I20240701 09:23:21.728005 890178 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.15.snapshot-edge-row-index
+I20240701 09:23:21.728435 890189 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.20.snapshot-edge-row-index
+I20240701 09:23:21.728837 890182 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.21.snapshot-edge-row-index
+I20240701 09:23:21.729229 890184 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.26.snapshot-edge-row-index
+I20240701 09:23:21.729594 890175 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 9.test.ns.g1.job_reuse_label_7.27.snapshot-edge-row-index
+I20240701 09:23:21.729665 890175 edge_import_write_exec_task.cc:153] =========================== exchange schema ===========================
+ROW<__srcid__:BIGINT,__dstid__:BIGINT,int32:INTEGER,float64:DOUBLE>
+I20240701 09:23:21.734279 890176 graph_storage_service2.cc:344] Received get task status request for job_id: 9, task_id: 113 task_status: pending { } call id: 22119081574441
+I20240701 09:23:21.734424 890654 graph_storage_service2.cc:276] Getting task status for Task: 9_113 task_status: running { } call id: 22119081574441
+I20240701 09:23:21.734481 890654 graph_storage_service2.cc:291] Get task status success for Task: 9_113 task_status: running { } call id: 22119081574441 latency: 0ms.
+I20240701 09:23:21.735054 890178 graph_storage_service2.cc:344] Received get task status request for job_id: 9, task_id: 113 task_status: running { } call id: 15517716840489
+I20240701 09:23:21.768330 890182 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+E20240701 09:23:21.768563 890182 edge_import_read_exec_task.cc:102] int32, 2
+E20240701 09:23:21.768687 890182 edge_import_read_exec_task.cc:102] float64, 3
+I20240701 09:23:21.769230 890182 edge_import_read_exec_task.cc:204] ======================= exchange schema =======================
+ROW<__srcid__:BIGINT,__dstid__:BIGINT,int32:INTEGER,float64:DOUBLE>
+ROW<__srcid__:BIGINT,__dstid__:BIGINT,int32:INTEGER,float64:DOUBLE>
+I20240701 09:23:21.783025 890178 graph_storage_service2.cc:344] Received get task status request for job_id: 9, task_id: 109 task_status: pending { } call id: 24313809862665
+I20240701 09:23:21.783159 890654 graph_storage_service2.cc:276] Getting task status for Task: 9_109 task_status: running { } call id: 24313809862665
+I20240701 09:23:21.783195 890654 graph_storage_service2.cc:291] Get task status success for Task: 9_109 task_status: running { } call id: 24313809862665 latency: 0ms.
+I20240701 09:23:21.784086 890180 graph_storage_service2.cc:344] Received get task status request for job_id: 9, task_id: 109 task_status: running { } call id: 26474178412553
+I20240701 09:23:21.815577 890573 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/9-edge-import-read-load/ after running for 35 ms.
+I20240701 09:23:21.815649 890573 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/9-edge-import-read-load/ with state Finished after running for 35 ms.
+I20240701 09:23:21.828873 890573 Task.cpp:983] All drivers (64) finished for task brpc://127.0.0.1:55535/task/9-edge-import-read-forward/0 after running for 59 ms.
+I20240701 09:23:21.831913 890175 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/9-edge-import-read-forward/0 with state Finished after running for 62 ms.
+I20240701 09:23:21.837371 890573 Task.cpp:983] All drivers (64) finished for task brpc://127.0.0.1:55535/task/9-edge-import-read-reverse/0 after running for 62 ms.
+I20240701 09:23:21.883677 890175 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/9-edge-import-read-reverse/0 with state Finished after running for 108 ms.
+I20240701 09:23:21.886623 890638 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward1 after running for 156 ms.
+I20240701 09:23:21.886682 890638 Task.cpp:1665] Terminating task 9-edge-import-write-forward1 with state Finished after running for 156 ms.
+I20240701 09:23:21.886967 890576 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:21.887125 890654 graph_storage_service2.cc:276] Getting task status for Task: 9_109 task_status: finished { } call id: 26474178412553
+I20240701 09:23:21.887187 890654 graph_storage_service2.cc:291] Get task status success for Task: 9_109 task_status: finished { } call id: 26474178412553 latency: 103ms.
+I20240701 09:23:21.900796 890574 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward20 after running for 168 ms.
+I20240701 09:23:21.900872 890574 Task.cpp:1665] Terminating task 9-edge-import-write-forward20 with state Finished after running for 168 ms.
+I20240701 09:23:21.908710 890575 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward15 after running for 176 ms.
+I20240701 09:23:21.909736 890575 Task.cpp:1665] Terminating task 9-edge-import-write-forward15 with state Finished after running for 177 ms.
+I20240701 09:23:21.928179 890581 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward2 after running for 197 ms.
+I20240701 09:23:21.928257 890581 Task.cpp:1665] Terminating task 9-edge-import-write-forward2 with state Finished after running for 197 ms.
+I20240701 09:23:21.956916 890578 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward14 after running for 224 ms.
+I20240701 09:23:21.957002 890578 Task.cpp:1665] Terminating task 9-edge-import-write-forward14 with state Finished after running for 225 ms.
+I20240701 09:23:21.960469 890572 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward7 after running for 229 ms.
+I20240701 09:23:21.960529 890572 Task.cpp:1665] Terminating task 9-edge-import-write-forward7 with state Finished after running for 229 ms.
+I20240701 09:23:21.962451 890641 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward0 after running for 232 ms.
+I20240701 09:23:21.962507 890641 Task.cpp:1665] Terminating task 9-edge-import-write-forward0 with state Finished after running for 232 ms.
+I20240701 09:23:21.964942 890640 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward8 after running for 233 ms.
+I20240701 09:23:21.965000 890640 Task.cpp:1665] Terminating task 9-edge-import-write-forward8 with state Finished after running for 234 ms.
+I20240701 09:23:21.965010 890576 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse0 after running for 267 ms.
+I20240701 09:23:21.965046 890576 Task.cpp:1665] Terminating task 9-edge-import-write-reverse0 with state Finished after running for 267 ms.
+I20240701 09:23:21.971486 890579 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward26 after running for 238 ms.
+I20240701 09:23:21.971554 890579 Task.cpp:1665] Terminating task 9-edge-import-write-forward26 with state Finished after running for 238 ms.
+I20240701 09:23:21.972249 890573 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse8 after running for 273 ms.
+I20240701 09:23:21.972316 890573 Task.cpp:1665] Terminating task 9-edge-import-write-reverse8 with state Finished after running for 273 ms.
+I20240701 09:23:21.974182 890583 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse15 after running for 274 ms.
+I20240701 09:23:21.974237 890583 Task.cpp:1665] Terminating task 9-edge-import-write-reverse15 with state Finished after running for 274 ms.
+I20240701 09:23:21.978436 890582 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse21 after running for 277 ms.
+I20240701 09:23:21.978498 890582 Task.cpp:1665] Terminating task 9-edge-import-write-reverse21 with state Finished after running for 277 ms.
+I20240701 09:23:21.979833 890577 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward21 after running for 246 ms.
+I20240701 09:23:21.979892 890577 Task.cpp:1665] Terminating task 9-edge-import-write-forward21 with state Finished after running for 246 ms.
+I20240701 09:23:21.981369 890639 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward13 after running for 250 ms.
+I20240701 09:23:21.981412 890639 Task.cpp:1665] Terminating task 9-edge-import-write-forward13 with state Finished after running for 250 ms.
+I20240701 09:23:21.984093 890580 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-forward27 after running for 251 ms.
+I20240701 09:23:21.985512 890580 Task.cpp:1665] Terminating task 9-edge-import-write-forward27 with state Finished after running for 252 ms.
+I20240701 09:23:21.987571 890638 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse1 after running for 289 ms.
+I20240701 09:23:21.987630 890638 Task.cpp:1665] Terminating task 9-edge-import-write-reverse1 with state Finished after running for 289 ms.
+I20240701 09:23:21.990823 890574 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse2 after running for 291 ms.
+I20240701 09:23:21.990876 890574 Task.cpp:1665] Terminating task 9-edge-import-write-reverse2 with state Finished after running for 291 ms.
+I20240701 09:23:21.991238 890583 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:21.991345 890583 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:21.991478 890654 graph_storage_service2.cc:276] Getting task status for Task: 9_113 task_status: finished { } call id: 15517716840489
+I20240701 09:23:21.991539 890654 graph_storage_service2.cc:291] Get task status success for Task: 9_113 task_status: finished { } call id: 15517716840489 latency: 256ms.
+I20240701 09:23:21.998467 890578 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse27 after running for 296 ms.
+I20240701 09:23:21.998509 890575 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse7 after running for 299 ms.
+I20240701 09:23:21.998528 890581 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse20 after running for 297 ms.
+I20240701 09:23:21.998521 890578 Task.cpp:1665] Terminating task 9-edge-import-write-reverse27 with state Finished after running for 296 ms.
+I20240701 09:23:21.998555 890575 Task.cpp:1665] Terminating task 9-edge-import-write-reverse7 with state Finished after running for 299 ms.
+I20240701 09:23:21.998564 890581 Task.cpp:1665] Terminating task 9-edge-import-write-reverse20 with state Finished after running for 297 ms.
+I20240701 09:23:21.999994 890576 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse26 after running for 298 ms.
+I20240701 09:23:22.000054 890576 Task.cpp:1665] Terminating task 9-edge-import-write-reverse26 with state Finished after running for 298 ms.
+I20240701 09:23:22.001221 890641 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse13 after running for 301 ms.
+I20240701 09:23:22.001281 890641 Task.cpp:1665] Terminating task 9-edge-import-write-reverse13 with state Finished after running for 301 ms.
+I20240701 09:23:22.002909 890572 Task.cpp:983] All drivers (1) finished for task 9-edge-import-write-reverse14 after running for 302 ms.
+I20240701 09:23:22.002965 890572 Task.cpp:1665] Terminating task 9-edge-import-write-reverse14 with state Finished after running for 302 ms.
+I20240701 09:23:22.010172 890572 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:22.010299 890572 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:22.010445 890654 graph_storage_service2.cc:276] Getting task status for Task: 9_116 task_status: finished { } call id: 23205708300313
+I20240701 09:23:22.010509 890654 graph_storage_service2.cc:291] Get task status success for Task: 9_116 task_status: finished { } call id: 23205708300313 latency: 307ms.
+I20240701 09:23:27.698626 890178 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:27.700014 890182 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.21.snapshot-vid-index
+I20240701 09:23:27.700523 890189 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.8.snapshot-vid-index
+I20240701 09:23:27.701045 890175 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.20.snapshot-vid-index
+I20240701 09:23:27.701501 890178 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.7.snapshot-vid-index
+I20240701 09:23:27.701951 890176 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.15.snapshot-vid-index
+I20240701 09:23:27.702368 890184 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.2.snapshot-vid-index
+I20240701 09:23:27.702816 890182 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.27.snapshot-vid-index
+I20240701 09:23:27.703244 890189 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.14.snapshot-vid-index
+I20240701 09:23:27.703580 890175 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.1.snapshot-vid-index
+I20240701 09:23:27.703990 890178 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.26.snapshot-vid-index
+I20240701 09:23:27.704402 890176 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.13.snapshot-vid-index
+I20240701 09:23:27.704756 890184 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.0.snapshot-vid-index
+I20240701 09:23:27.705214 890182 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.21.snapshot-vtx-row-index
+I20240701 09:23:27.705565 890189 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.8.snapshot-vtx-row-index
+I20240701 09:23:27.705933 890175 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.20.snapshot-vtx-row-index
+I20240701 09:23:27.706283 890178 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.7.snapshot-vtx-row-index
+I20240701 09:23:27.706640 890176 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.15.snapshot-vtx-row-index
+I20240701 09:23:27.707053 890184 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.2.snapshot-vtx-row-index
+I20240701 09:23:27.707473 890182 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.27.snapshot-vtx-row-index
+I20240701 09:23:27.707836 890189 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.14.snapshot-vtx-row-index
+I20240701 09:23:27.708226 890175 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.1.snapshot-vtx-row-index
+I20240701 09:23:27.708606 890178 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.26.snapshot-vtx-row-index
+I20240701 09:23:27.708994 890176 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.13.snapshot-vtx-row-index
+I20240701 09:23:27.709385 890184 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 10.test.ns.g1.vlabel_1_job_reuse_label_8.0.snapshot-vtx-row-index
+I20240701 09:23:27.709444 890184 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:27.713696 890182 graph_storage_service2.cc:344] Received get task status request for job_id: 10, task_id: 128 task_status: pending { } call id: 4501125726241
+I20240701 09:23:27.713829 890653 graph_storage_service2.cc:276] Getting task status for Task: 10_128 task_status: running { } call id: 4501125726241
+I20240701 09:23:27.713876 890653 graph_storage_service2.cc:291] Get task status success for Task: 10_128 task_status: running { } call id: 4501125726241 latency: 0ms.
+I20240701 09:23:27.714555 890189 graph_storage_service2.cc:344] Received get task status request for job_id: 10, task_id: 128 task_status: running { } call id: 7846905249825
+I20240701 09:23:27.750356 890178 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:27.750845 890178 vertex_import_read_exec_task.cc:125] ============================================ exchange schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:27.753165 890176 graph_storage_service2.cc:344] Received get task status request for job_id: 10, task_id: 124 task_status: pending { } call id: 34153579937833
+I20240701 09:23:27.753341 890653 graph_storage_service2.cc:276] Getting task status for Task: 10_124 task_status: running { } call id: 34153579937833
+I20240701 09:23:27.753418 890653 graph_storage_service2.cc:291] Get task status success for Task: 10_124 task_status: running { } call id: 34153579937833 latency: 0ms.
+I20240701 09:23:27.754128 890184 graph_storage_service2.cc:344] Received get task status request for job_id: 10, task_id: 124 task_status: running { } call id: 9990093930537
+I20240701 09:23:27.758844 890579 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/10-vertex-import-read/0 after running for 7 ms.
+I20240701 09:23:27.802451 890180 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/10-vertex-import-read/0 with state Finished after running for 51 ms.
+I20240701 09:23:27.803246 890583 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:27.803594 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/7 after running for 93 ms.
+I20240701 09:23:27.803638 890578 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/7 with state Finished after running for 93 ms.
+I20240701 09:23:27.803642 890653 graph_storage_service2.cc:276] Getting task status for Task: 10_124 task_status: finished { } call id: 9990093930537
+I20240701 09:23:27.803743 890653 graph_storage_service2.cc:291] Get task status success for Task: 10_124 task_status: finished { } call id: 9990093930537 latency: 49ms.
+I20240701 09:23:27.804069 890638 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/15 after running for 93 ms.
+I20240701 09:23:27.804102 890638 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/15 with state Finished after running for 93 ms.
+I20240701 09:23:27.814738 890574 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/1 after running for 102 ms.
+I20240701 09:23:27.817544 890574 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/1 with state Finished after running for 105 ms.
+I20240701 09:23:27.824537 890572 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/2 after running for 113 ms.
+I20240701 09:23:27.824600 890572 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/2 with state Finished after running for 113 ms.
+I20240701 09:23:27.848376 890575 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/20 after running for 138 ms.
+I20240701 09:23:27.848491 890575 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/20 with state Finished after running for 138 ms.
+I20240701 09:23:27.850579 890581 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/14 after running for 138 ms.
+I20240701 09:23:27.850642 890581 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/14 with state Finished after running for 138 ms.
+I20240701 09:23:27.852692 890583 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/27 after running for 141 ms.
+I20240701 09:23:27.852769 890583 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/27 with state Finished after running for 141 ms.
+I20240701 09:23:27.853665 890577 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/13 after running for 141 ms.
+I20240701 09:23:27.853729 890577 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/13 with state Finished after running for 141 ms.
+I20240701 09:23:27.854087 890641 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/21 after running for 145 ms.
+I20240701 09:23:27.854137 890641 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/21 with state Finished after running for 145 ms.
+I20240701 09:23:27.855873 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/0 after running for 143 ms.
+I20240701 09:23:27.855949 890578 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/0 with state Finished after running for 143 ms.
+I20240701 09:23:27.859505 890639 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/26 after running for 147 ms.
+I20240701 09:23:27.859549 890639 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/26 with state Finished after running for 147 ms.
+I20240701 09:23:27.859782 890576 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/10-vertex-import-write/8 after running for 149 ms.
+I20240701 09:23:27.859823 890576 Task.cpp:1665] Terminating task local://localhost:0/task/10-vertex-import-write/8 with state Finished after running for 149 ms.
+I20240701 09:23:27.867069 890638 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:27.867241 890638 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:27.867410 890653 graph_storage_service2.cc:276] Getting task status for Task: 10_128 task_status: finished { } call id: 7846905249825
+I20240701 09:23:27.867471 890653 graph_storage_service2.cc:291] Get task status success for Task: 10_128 task_status: finished { } call id: 7846905249825 latency: 153ms.
+I20240701 09:23:27.986538 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986595 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986624 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986660 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986687 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986711 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986743 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986778 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986805 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986832 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986858 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:27.986894 890179 local_data_manager.cc:71] Successfully updated the vertex id index for job 10 with snapshot id: 1
+I20240701 09:23:28.788733 890180 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:28.789773 890172 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.21.snapshot-vid-index
+I20240701 09:23:28.790302 890177 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.8.snapshot-vid-index
+I20240701 09:23:28.790807 890187 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.20.snapshot-vid-index
+I20240701 09:23:28.791303 890173 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.7.snapshot-vid-index
+I20240701 09:23:28.791792 890179 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.15.snapshot-vid-index
+I20240701 09:23:28.792326 890180 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.2.snapshot-vid-index
+I20240701 09:23:28.792793 890172 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.27.snapshot-vid-index
+I20240701 09:23:28.793254 890177 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.14.snapshot-vid-index
+I20240701 09:23:28.793633 890187 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.1.snapshot-vid-index
+I20240701 09:23:28.794128 890173 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.26.snapshot-vid-index
+I20240701 09:23:28.794591 890179 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.13.snapshot-vid-index
+I20240701 09:23:28.794966 890180 vertex_segment_base.cc:86] createMutableVertexIdIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.0.snapshot-vid-index
+I20240701 09:23:28.795447 890172 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.21.snapshot-vtx-row-index
+I20240701 09:23:28.795908 890177 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.8.snapshot-vtx-row-index
+I20240701 09:23:28.796260 890187 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.20.snapshot-vtx-row-index
+I20240701 09:23:28.796733 890173 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.7.snapshot-vtx-row-index
+I20240701 09:23:28.797158 890179 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.15.snapshot-vtx-row-index
+I20240701 09:23:28.797536 890180 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.2.snapshot-vtx-row-index
+I20240701 09:23:28.797966 890172 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.27.snapshot-vtx-row-index
+I20240701 09:23:28.798341 890177 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.14.snapshot-vtx-row-index
+I20240701 09:23:28.798707 890187 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.1.snapshot-vtx-row-index
+I20240701 09:23:28.799139 890173 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.26.snapshot-vtx-row-index
+I20240701 09:23:28.799533 890179 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.13.snapshot-vtx-row-index
+I20240701 09:23:28.799975 890180 vertex_segment_base.cc:103] createMutableVertexRowIndex --------- commit_key 11.test.ns.g1.vlabel_2_job_reuse_label_8.0.snapshot-vtx-row-index
+I20240701 09:23:28.800040 890180 vertex_import_write_exec_task.cc:140] ============================================ VertexImportWriteExecTask schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:28.804563 890177 graph_storage_service2.cc:344] Received get task status request for job_id: 11, task_id: 140 task_status: pending { } call id: 7816840478757
+I20240701 09:23:28.804692 890653 graph_storage_service2.cc:276] Getting task status for Task: 11_140 task_status: running { } call id: 7816840478757
+I20240701 09:23:28.804733 890653 graph_storage_service2.cc:291] Get task status success for Task: 11_140 task_status: running { } call id: 7816840478757 latency: 0ms.
+I20240701 09:23:28.805305 890187 graph_storage_service2.cc:344] Received get task status request for job_id: 11, task_id: 140 task_status: running { } call id: 34170759807009
+I20240701 09:23:28.830648 890173 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:28.831023 890173 vertex_import_read_exec_task.cc:125] ============================================ exchange schema
+ROW<pkey:INTEGER,int32:INTEGER,str:VARCHAR,float64:DOUBLE>
+I20240701 09:23:28.833240 890179 graph_storage_service2.cc:344] Received get task status request for job_id: 11, task_id: 137 task_status: pending { } call id: 32001801322537
+I20240701 09:23:28.833354 890653 graph_storage_service2.cc:276] Getting task status for Task: 11_137 task_status: running { } call id: 32001801322537
+I20240701 09:23:28.833408 890653 graph_storage_service2.cc:291] Get task status success for Task: 11_137 task_status: running { } call id: 32001801322537 latency: 0ms.
+I20240701 09:23:28.834031 890172 graph_storage_service2.cc:344] Received get task status request for job_id: 11, task_id: 137 task_status: running { } call id: 22162031247405
+I20240701 09:23:28.841934 890582 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/11-vertex-import-read/0 after running for 10 ms.
+I20240701 09:23:28.904160 890176 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/11-vertex-import-read/0 with state Finished after running for 73 ms.
+I20240701 09:23:28.905468 890582 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:28.906204 890653 graph_storage_service2.cc:276] Getting task status for Task: 11_137 task_status: finished { } call id: 22162031247405
+I20240701 09:23:28.906282 890653 graph_storage_service2.cc:291] Get task status success for Task: 11_137 task_status: finished { } call id: 22162031247405 latency: 72ms.
+I20240701 09:23:28.928957 890578 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/21 after running for 128 ms.
+I20240701 09:23:28.929006 890578 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/21 with state Finished after running for 129 ms.
+I20240701 09:23:28.929208 890576 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/20 after running for 128 ms.
+I20240701 09:23:28.929243 890576 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/20 with state Finished after running for 128 ms.
+I20240701 09:23:28.937825 890639 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/7 after running for 136 ms.
+I20240701 09:23:28.937887 890639 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/7 with state Finished after running for 136 ms.
+I20240701 09:23:28.949012 890641 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/15 after running for 148 ms.
+I20240701 09:23:28.949110 890641 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/15 with state Finished after running for 148 ms.
+I20240701 09:23:28.952154 890572 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/26 after running for 149 ms.
+I20240701 09:23:28.952211 890572 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/26 with state Finished after running for 149 ms.
+I20240701 09:23:28.956696 890580 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/0 after running for 153 ms.
+I20240701 09:23:28.956741 890580 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/0 with state Finished after running for 153 ms.
+I20240701 09:23:28.957432 890575 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/1 after running for 154 ms.
+I20240701 09:23:28.957479 890575 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/1 with state Finished after running for 154 ms.
+I20240701 09:23:28.957535 890574 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/8 after running for 157 ms.
+I20240701 09:23:28.957571 890574 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/8 with state Finished after running for 157 ms.
+I20240701 09:23:28.957587 890583 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/14 after running for 155 ms.
+I20240701 09:23:28.957629 890583 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/14 with state Finished after running for 155 ms.
+I20240701 09:23:28.959367 890638 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/2 after running for 157 ms.
+I20240701 09:23:28.959414 890638 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/2 with state Finished after running for 157 ms.
+I20240701 09:23:28.960227 890577 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/27 after running for 158 ms.
+I20240701 09:23:28.960278 890577 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/27 with state Finished after running for 158 ms.
+I20240701 09:23:28.963030 890581 Task.cpp:983] All drivers (1) finished for task local://localhost:0/task/11-vertex-import-write/13 after running for 160 ms.
+I20240701 09:23:28.963059 890581 Task.cpp:1665] Terminating task local://localhost:0/task/11-vertex-import-write/13 with state Finished after running for 160 ms.
+I20240701 09:23:28.969566 890582 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:28.969708 890582 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:28.969848 890653 graph_storage_service2.cc:276] Getting task status for Task: 11_140 task_status: finished { } call id: 34170759807009
+I20240701 09:23:28.969897 890653 graph_storage_service2.cc:291] Get task status success for Task: 11_140 task_status: finished { } call id: 34170759807009 latency: 164ms.
+I20240701 09:23:29.063798 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.063879 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.063916 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.063969 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.064004 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.064059 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.064105 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.064147 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.064188 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.064217 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.064244 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.064270 890189 local_data_manager.cc:71] Successfully updated the vertex id index for job 11 with snapshot id: 1
+I20240701 09:23:29.870749 890189 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:29.871536 890184 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.0.snapshot-edge-row-index
+I20240701 09:23:29.872020 890175 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.1.snapshot-edge-row-index
+I20240701 09:23:29.872416 890182 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.2.snapshot-edge-row-index
+I20240701 09:23:29.872819 890176 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.7.snapshot-edge-row-index
+I20240701 09:23:29.873288 890178 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.8.snapshot-edge-row-index
+I20240701 09:23:29.873663 890189 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.13.snapshot-edge-row-index
+I20240701 09:23:29.874037 890184 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.14.snapshot-edge-row-index
+I20240701 09:23:29.874406 890175 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.15.snapshot-edge-row-index
+I20240701 09:23:29.874807 890182 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.20.snapshot-edge-row-index
+I20240701 09:23:29.875228 890176 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.21.snapshot-edge-row-index
+I20240701 09:23:29.875602 890178 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.26.snapshot-edge-row-index
+I20240701 09:23:29.875977 890189 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.__internal_anonymous_reverse_edge_label_job_reuse_label_8.27.snapshot-edge-row-index
+I20240701 09:23:29.876045 890189 edge_import_write_exec_task.cc:153] =========================== exchange schema ===========================
+ROW<__srcid__:BIGINT,__dstid__:BIGINT,int32:INTEGER,float64:DOUBLE>
+I20240701 09:23:29.880961 890184 graph_storage_service2.cc:344] Received get task status request for job_id: 12, task_id: 155 task_status: pending { } call id: 10028748636177
+I20240701 09:23:29.881070 890653 graph_storage_service2.cc:276] Getting task status for Task: 12_155 task_status: running { } call id: 10028748636177
+I20240701 09:23:29.881119 890653 graph_storage_service2.cc:291] Get task status success for Task: 12_155 task_status: running { } call id: 10028748636177 latency: 1ms.
+I20240701 09:23:29.881525 890175 graph_storage_service2.cc:344] Received get task status request for job_id: 12, task_id: 155 task_status: running { } call id: 7885559955481
+I20240701 09:23:29.898181 890182 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+I20240701 09:23:29.898720 890176 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.0.snapshot-edge-row-index
+I20240701 09:23:29.899116 890178 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.1.snapshot-edge-row-index
+I20240701 09:23:29.899461 890189 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.2.snapshot-edge-row-index
+I20240701 09:23:29.899796 890184 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.7.snapshot-edge-row-index
+I20240701 09:23:29.900213 890175 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.8.snapshot-edge-row-index
+I20240701 09:23:29.900580 890182 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.13.snapshot-edge-row-index
+I20240701 09:23:29.900933 890176 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.14.snapshot-edge-row-index
+I20240701 09:23:29.901335 890189 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.15.snapshot-edge-row-index
+I20240701 09:23:29.901635 890184 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.20.snapshot-edge-row-index
+I20240701 09:23:29.901973 890175 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.21.snapshot-edge-row-index
+I20240701 09:23:29.902359 890182 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.26.snapshot-edge-row-index
+I20240701 09:23:29.902699 890176 edge_segment_base.cc:68] createMutableEdgeRowIndex --------- commit_key 12.test.ns.g1.job_reuse_label_8.27.snapshot-edge-row-index
+I20240701 09:23:29.902753 890176 edge_import_write_exec_task.cc:153] =========================== exchange schema ===========================
+ROW<__srcid__:BIGINT,__dstid__:BIGINT,int32:INTEGER,float64:DOUBLE>
+I20240701 09:23:29.906869 890189 graph_storage_service2.cc:344] Received get task status request for job_id: 12, task_id: 152 task_status: pending { } call id: 22174916149289
+I20240701 09:23:29.906976 890653 graph_storage_service2.cc:276] Getting task status for Task: 12_152 task_status: running { } call id: 22174916149289
+I20240701 09:23:29.907035 890653 graph_storage_service2.cc:291] Get task status success for Task: 12_152 task_status: running { } call id: 22174916149289 latency: 1ms.
+I20240701 09:23:29.907510 890184 graph_storage_service2.cc:344] Received get task status request for job_id: 12, task_id: 152 task_status: running { } call id: 15569256448045
+I20240701 09:23:29.922176 890175 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 1
+E20240701 09:23:29.922359 890175 edge_import_read_exec_task.cc:102] float64, 3
+E20240701 09:23:29.922430 890175 edge_import_read_exec_task.cc:102] int32, 2
+I20240701 09:23:29.923013 890175 edge_import_read_exec_task.cc:204] ======================= exchange schema =======================
+ROW<__srcid__:BIGINT,__dstid__:BIGINT,int32:INTEGER,float64:DOUBLE>
+ROW<__srcid__:BIGINT,__dstid__:BIGINT,int32:INTEGER,float64:DOUBLE>
+I20240701 09:23:29.933900 890182 graph_storage_service2.cc:344] Received get task status request for job_id: 12, task_id: 149 task_status: pending { } call id: 6781753360409
+I20240701 09:23:29.934022 890653 graph_storage_service2.cc:276] Getting task status for Task: 12_149 task_status: running { } call id: 6781753360409
+I20240701 09:23:29.934072 890653 graph_storage_service2.cc:291] Get task status success for Task: 12_149 task_status: running { } call id: 6781753360409 latency: 1ms.
+I20240701 09:23:29.934749 890178 graph_storage_service2.cc:344] Received get task status request for job_id: 12, task_id: 149 task_status: running { } call id: 35287451303961
+I20240701 09:23:29.940389 890581 Task.cpp:983] All drivers (10) finished for task brpc://127.0.0.1:55535/task/12-edge-import-read-load/ after running for 8 ms.
+I20240701 09:23:29.940450 890581 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/12-edge-import-read-load/ with state Finished after running for 8 ms.
+I20240701 09:23:29.950508 890577 Task.cpp:983] All drivers (64) finished for task brpc://127.0.0.1:55535/task/12-edge-import-read-forward/0 after running for 27 ms.
+I20240701 09:23:29.955091 890578 Task.cpp:983] All drivers (64) finished for task brpc://127.0.0.1:55535/task/12-edge-import-read-reverse/0 after running for 27 ms.
+I20240701 09:23:29.976608 890187 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/12-edge-import-read-forward/0 with state Finished after running for 53 ms.
+I20240701 09:23:30.041303 890173 Task.cpp:1665] Terminating task brpc://127.0.0.1:55535/task/12-edge-import-read-reverse/0 with state Finished after running for 113 ms.
+I20240701 09:23:30.041421 890580 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:30.041604 890653 graph_storage_service2.cc:276] Getting task status for Task: 12_149 task_status: finished { } call id: 35287451303961
+I20240701 09:23:30.041651 890653 graph_storage_service2.cc:291] Get task status success for Task: 12_149 task_status: finished { } call id: 35287451303961 latency: 107ms.
+I20240701 09:23:30.059994 890576 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward15 after running for 155 ms.
+I20240701 09:23:30.060046 890576 Task.cpp:1665] Terminating task 12-edge-import-write-forward15 with state Finished after running for 155 ms.
+I20240701 09:23:30.073691 890579 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward21 after running for 168 ms.
+I20240701 09:23:30.073742 890579 Task.cpp:1665] Terminating task 12-edge-import-write-forward21 with state Finished after running for 168 ms.
+I20240701 09:23:30.098201 890640 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward8 after running for 194 ms.
+I20240701 09:23:30.098256 890640 Task.cpp:1665] Terminating task 12-edge-import-write-forward8 with state Finished after running for 194 ms.
+I20240701 09:23:30.104105 890573 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward26 after running for 198 ms.
+I20240701 09:23:30.104156 890573 Task.cpp:1665] Terminating task 12-edge-import-write-forward26 with state Finished after running for 198 ms.
+I20240701 09:23:30.111184 890578 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward2 after running for 207 ms.
+I20240701 09:23:30.111250 890578 Task.cpp:1665] Terminating task 12-edge-import-write-forward2 with state Finished after running for 207 ms.
+I20240701 09:23:30.116780 890574 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward0 after running for 213 ms.
+I20240701 09:23:30.116838 890574 Task.cpp:1665] Terminating task 12-edge-import-write-forward0 with state Finished after running for 213 ms.
+I20240701 09:23:30.122727 890575 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward14 after running for 217 ms.
+I20240701 09:23:30.122789 890575 Task.cpp:1665] Terminating task 12-edge-import-write-forward14 with state Finished after running for 217 ms.
+I20240701 09:23:30.122956 890582 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward13 after running for 218 ms.
+I20240701 09:23:30.123003 890582 Task.cpp:1665] Terminating task 12-edge-import-write-forward13 with state Finished after running for 219 ms.
+I20240701 09:23:30.128051 890638 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward27 after running for 222 ms.
+I20240701 09:23:30.128109 890638 Task.cpp:1665] Terminating task 12-edge-import-write-forward27 with state Finished after running for 222 ms.
+I20240701 09:23:30.128774 890583 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward20 after running for 223 ms.
+I20240701 09:23:30.128815 890583 Task.cpp:1665] Terminating task 12-edge-import-write-forward20 with state Finished after running for 223 ms.
+I20240701 09:23:30.135418 890639 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward7 after running for 231 ms.
+I20240701 09:23:30.135466 890639 Task.cpp:1665] Terminating task 12-edge-import-write-forward7 with state Finished after running for 231 ms.
+I20240701 09:23:30.150097 890579 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse13 after running for 272 ms.
+I20240701 09:23:30.150179 890579 Task.cpp:1665] Terminating task 12-edge-import-write-reverse13 with state Finished after running for 272 ms.
+I20240701 09:23:30.155247 890581 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse7 after running for 278 ms.
+I20240701 09:23:30.155303 890581 Task.cpp:1665] Terminating task 12-edge-import-write-reverse7 with state Finished after running for 278 ms.
+I20240701 09:23:30.166208 890577 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse14 after running for 288 ms.
+I20240701 09:23:30.166249 890577 Task.cpp:1665] Terminating task 12-edge-import-write-reverse14 with state Finished after running for 288 ms.
+I20240701 09:23:30.169342 890572 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse15 after running for 291 ms.
+I20240701 09:23:30.169404 890572 Task.cpp:1665] Terminating task 12-edge-import-write-reverse15 with state Finished after running for 291 ms.
+I20240701 09:23:30.171303 890641 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-forward1 after running for 268 ms.
+I20240701 09:23:30.171360 890641 Task.cpp:1665] Terminating task 12-edge-import-write-forward1 with state Finished after running for 268 ms.
+I20240701 09:23:30.172245 890580 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse1 after running for 295 ms.
+I20240701 09:23:30.172291 890580 Task.cpp:1665] Terminating task 12-edge-import-write-reverse1 with state Finished after running for 295 ms.
+I20240701 09:23:30.177726 890576 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse21 after running for 298 ms.
+I20240701 09:23:30.177790 890576 Task.cpp:1665] Terminating task 12-edge-import-write-reverse21 with state Finished after running for 298 ms.
+I20240701 09:23:30.177793 890640 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse27 after running for 297 ms.
+I20240701 09:23:30.177874 890640 Task.cpp:1665] Terminating task 12-edge-import-write-reverse27 with state Finished after running for 297 ms.
+I20240701 09:23:30.180562 890578 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse20 after running for 301 ms.
+I20240701 09:23:30.180616 890578 Task.cpp:1665] Terminating task 12-edge-import-write-reverse20 with state Finished after running for 301 ms.
+I20240701 09:23:30.182677 890582 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse2 after running for 305 ms.
+I20240701 09:23:30.182734 890582 Task.cpp:1665] Terminating task 12-edge-import-write-reverse2 with state Finished after running for 305 ms.
+I20240701 09:23:30.182808 890574 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse8 after running for 305 ms.
+I20240701 09:23:30.182850 890574 Task.cpp:1665] Terminating task 12-edge-import-write-reverse8 with state Finished after running for 305 ms.
+I20240701 09:23:30.184630 890638 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:30.184793 890638 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:30.184978 890653 graph_storage_service2.cc:276] Getting task status for Task: 12_152 task_status: finished { } call id: 15569256448045
+I20240701 09:23:30.185041 890653 graph_storage_service2.cc:291] Get task status success for Task: 12_152 task_status: finished { } call id: 15569256448045 latency: 278ms.
+I20240701 09:23:30.185410 890573 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse0 after running for 309 ms.
+I20240701 09:23:30.185439 890573 Task.cpp:1665] Terminating task 12-edge-import-write-reverse0 with state Finished after running for 309 ms.
+I20240701 09:23:30.186956 890575 Task.cpp:983] All drivers (1) finished for task 12-edge-import-write-reverse26 after running for 307 ms.
+I20240701 09:23:30.187007 890575 Task.cpp:1665] Terminating task 12-edge-import-write-reverse26 with state Finished after running for 308 ms.
+I20240701 09:23:30.193254 890575 meta_service_client.cc:729] Successfully submitImportJobFiles
+I20240701 09:23:30.193395 890575 state_machine-inl.h:201] fireStateChanged VeloxExecTask state changed to 2
+I20240701 09:23:30.193537 890653 graph_storage_service2.cc:276] Getting task status for Task: 12_155 task_status: finished { } call id: 7885559955481
+I20240701 09:23:30.193594 890653 graph_storage_service2.cc:291] Get task status success for Task: 12_155 task_status: finished { } call id: 7885559955481 latency: 312ms.
+I20240701 09:26:50.837944 890173 socket.cpp:2465] Checking Socket{id=1020 addr=127.0.0.1:55535} (0x631000104800)
+I20240701 09:26:50.838209 890179 socket.cpp:2525] Revived Socket{id=1020 addr=127.0.0.1:55535} (0x631000104800) (Connectable)
+I20240701 09:26:50.861449 890173 socket.cpp:2465] Checking Socket{id=408 addr=127.0.0.1:55537} (0x63100008c800)
+I20240701 09:26:50.861649 890177 socket.cpp:2525] Revived Socket{id=408 addr=127.0.0.1:55537} (0x63100008c800) (Connectable)
+I20240701 09:26:50.878165 890187 socket.cpp:2465] Checking Socket{id=410 addr=127.0.0.1:55536} (0x63100008cd00)
+I20240701 09:26:50.878372 890180 socket.cpp:2525] Revived Socket{id=410 addr=127.0.0.1:55536} (0x63100008cd00) (Connectable)
