@@ -1,0 +1,64 @@
+I20240702 03:00:37.753472 1999966 base_catalog.h:87] Restoring catalog from previous data
+I20240702 03:00:37.763454 1999966 base_catalog.h:848] No master compute node manager meta to restore
+I20240702 03:00:37.767596 1999966 flavius_worker.cc:65] Start Worker: MasterComputeManagerWorker, thread cnt: 1, interval: 200
+I20240702 03:00:37.770459 2000000 etcd_election_client.cc:100] 1204655497573163 StartElection 
+I20240702 03:00:37.770547 2000000 etcd_based_election_manager.h:50] electtion callback : start watch
+I20240702 03:00:37.770567 2000000 etcd_catalog_metadata_watcher.h:38] Start to watch metadata changes from etcd
+I20240702 03:00:37.778421 2000000 election_util.h:104] Start WatchLeaderSysTimeWorker
+I20240702 03:00:37.778717 2000000 flavius_worker.cc:65] Start Worker: WatchLeaderTimeWorker, thread cnt: 1, interval: 600
+E20240702 03:00:37.778751 2000000 election_util.h:221] UpdateLeaderSysTimeWorker is not running.
+
+I20240702 03:00:37.780097 2000000 etcd_election_client.cc:119] I am not leader, acquiring new lease
+I20240702 03:00:37.781524 2000000 etcd_election_client.cc:145] id: 127.0.0.1:55527 campaign for leader.
+I20240702 03:00:37.792500 1999966 server.cpp:1127] Server[flavius::server::MetaServiceImpl] is serving on port=55527.
+I20240702 03:00:37.792577 1999966 server.cpp:1130] Check out http://920f477ca690:55527 in web browser.
+W20240702 03:00:37.792980 1999966 controller.cpp:1514] SIGINT was installed with 1
+
+
+
+I20240702 03:00:45.572425 2000006 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:45.572507 2000006 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}]],"current_cn_list":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"last_assign_compute_node_id":1,"version":0}
+I20240702 03:00:46.581787 2000006 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:46.581856 2000006 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[1,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":1}],[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}]],"current_cn_list":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"last_assign_compute_node_id":2,"version":1}
+I20240702 03:00:47.589545 2000006 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:47.589608 2000006 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[2,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536},{"id_":3,"ip_":"127.0.0.1","port_":55537}],"version_":2}],[1,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":1}],[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}]],"current_cn_list":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536},{"id_":3,"ip_":"127.0.0.1","port_":55537}],"last_assign_compute_node_id":3,"version":2}
+E20240702 03:00:47.590756 1999993 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 2
+E20240702 03:00:47.590858 1999994 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 2
+E20240702 03:00:47.591388 2000015 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 1
+E20240702 03:00:47.591471 1999997 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 1
+E20240702 03:00:47.591944 1999993 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 0
+E20240702 03:00:47.592026 1999994 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 0
+E20240702 03:00:47.592310 2000015 master_compute_node_manager.cc:41] Finally Send HearBeat to ComputeNode: { id: 1 on 127.0.0.1:55535 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Total retry count]: 3
+E20240702 03:00:47.592327 1999997 master_compute_node_manager.cc:41] Finally Send HearBeat to ComputeNode: { id: 2 on 127.0.0.1:55536 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Total retry count]: 3
+I20240702 03:00:47.795588 2000006 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:47.795634 2000006 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[3,{"infos_":[{"id_":3,"ip_":"127.0.0.1","port_":55537}],"version_":3}],[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}],[1,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":1}],[2,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536},{"id_":3,"ip_":"127.0.0.1","port_":55537}],"version_":2}]],"current_cn_list":[{"id_":3,"ip_":"127.0.0.1","port_":55537}],"last_assign_compute_node_id":3,"version":3}
+I20240702 03:00:47.796236 2000013 master_compute_node_manager.cc:285] [MetaServer::CNManager]Remove CNs success, new CNList: CNList: {
+version:3
+infos:[ComputeNode: { id: 3 on 127.0.0.1:55537 }, ]
+}
+I20240702 03:00:48.197317 2000006 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:48.197388 2000006 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[3,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":3}],[2,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536},{"id_":3,"ip_":"127.0.0.1","port_":55537}],"version_":2}],[1,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":1}],[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}]],"current_cn_list":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"last_assign_compute_node_id":3,"version":3}

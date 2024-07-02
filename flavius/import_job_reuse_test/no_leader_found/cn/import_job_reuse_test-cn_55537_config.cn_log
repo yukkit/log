@@ -1,0 +1,37 @@
+I20240702 03:00:46.864574 2000392 HiveConnector.cpp:66] Hive connector hive_connector created with maximum of 20000 cached file handles.
+I20240702 03:00:46.865018 2000392 HiveConnector.cpp:66] Hive connector localfs-hive created with maximum of 20000 cached file handles.
+I20240702 03:00:46.865217 2000392 HiveConnector.cpp:66] Hive connector s3-hive created with maximum of 20000 cached file handles.
+I20240702 03:00:46.885236 2000392 server.cpp:1127] Server[flavius::exec::TaskServiceImpl+flavius::exec::ComputeServiceImpl+flavius::server::GraphStorageServiceImpl2] is serving on port=55537.
+I20240702 03:00:46.885303 2000392 server.cpp:1130] Check out http://920f477ca690:55537 in web browser.
+I20240702 03:00:47.385758 2000392 flavius_worker.cc:65] Start Worker: MirrorComputeNodeManagerWorker, thread cnt: 1, interval: 200
+I20240702 03:00:47.389012 2000423 mirror_compute_node_manager.cc:58] >>>>>>>>>>>>>>>>>>>> Set my CN info: id 3 on 127.0.0.1:55537
+E20240702 03:01:00.597553 2000422 mirror_compute_node_manager.cc:71] [ComputeNode] No message from MetaService after 12000 ms, quit cluster.
+==2000392==WARNING: ASan is ignoring requested __asan_handle_no_return: stack type: default top: 0x7fe798e631c0; bottom 0x7fe786009000; size: 0x000012e5a1c0 (317039040)
+False positive error reports may follow
+For details see https://github.com/google/sanitizers/issues/189
+E20240702 03:01:00.604983 2000425 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+Error: signal: 11
+# 0  flavius::util::StackTrace::exitHandler(int) at /root/workspace/Flavius/src/util/stack_trace.h:62
+# 1  0x0000000000000000 at (unknown)
+# 2  etcdv3::AsyncObserveAction::waitForResponse() at (unknown)
+# 3  etcd::Response etcd::Response::create<etcdv3::AsyncObserveAction>(std::shared_ptr<etcdv3::AsyncObserveAction>) at (unknown)
+# 4  etcd::SyncClient::Observer::WaitOnce() at (unknown)
+# 5  flavius::server::LeaderObserver::WaitTillLeaderChanged(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) at /root/workspace/Flavius/src/server/election/election_util.h:51
+# 6  flavius::client::MetaServiceClient::watchMetaServerLeader(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) at /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:195
+# 7  flavius::client::MetaServiceClient::MetaServiceClient()::{lambda()#1}::operator()() const at /usr/bin/../lib/gcc/x86_64-linux-gnu/11/../../../../include/c++/11/bits/basic_string.h:195
+# 8  0x0000000000000000 at (unknown)
+# 9  0x0000000000000000 at (unknown)
+# 10 0x0000000000000000 at (unknown)
+server_ip: 127.0.0.1
+server_port: 55537
+idle_timeout_sec: 200
+default_parquet_path: /tmp/flavius/data
+meta_server_connect_ip: 127.0.0.1
+meta_server_connect_port: 55521
+log_dir: /tmp/flavius/log
+tmp_dir: /tmp/flavius/tmp
+fileio_type: kLocalFs
+enable_disk_cache: false
+disk_cache_size: 1000000
+disk_cache_path: /tmp/flavius/disk_cache
+enable_multi_meta_server: true

@@ -1,0 +1,113 @@
+I20240702 03:00:38.769007 2000050 base_catalog.h:87] Restoring catalog from previous data
+I20240702 03:00:38.778844 2000050 base_catalog.h:848] No master compute node manager meta to restore
+I20240702 03:00:38.783331 2000050 flavius_worker.cc:65] Start Worker: MasterComputeManagerWorker, thread cnt: 1, interval: 200
+I20240702 03:00:38.786441 2000084 etcd_election_client.cc:100] 1204656513557085 StartElection 
+I20240702 03:00:38.786527 2000084 etcd_based_election_manager.h:50] electtion callback : start watch
+I20240702 03:00:38.786547 2000084 etcd_catalog_metadata_watcher.h:38] Start to watch metadata changes from etcd
+I20240702 03:00:38.794458 2000084 election_util.h:104] Start WatchLeaderSysTimeWorker
+I20240702 03:00:38.794716 2000084 flavius_worker.cc:65] Start Worker: WatchLeaderTimeWorker, thread cnt: 1, interval: 600
+E20240702 03:00:38.794751 2000084 election_util.h:221] UpdateLeaderSysTimeWorker is not running.
+
+I20240702 03:00:38.795953 2000084 etcd_election_client.cc:119] I am not leader, acquiring new lease
+I20240702 03:00:38.797266 2000084 etcd_election_client.cc:145] id: 127.0.0.1:55528 campaign for leader.
+I20240702 03:00:38.808948 2000050 server.cpp:1127] Server[flavius::server::MetaServiceImpl] is serving on port=55528.
+I20240702 03:00:38.809041 2000050 server.cpp:1130] Check out http://920f477ca690:55528 in web browser.
+W20240702 03:00:38.809471 2000050 controller.cpp:1514] SIGINT was installed with 1
+
+
+
+I20240702 03:00:45.572436 2000090 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:45.572507 2000090 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}]],"current_cn_list":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"last_assign_compute_node_id":1,"version":0}
+I20240702 03:00:46.581792 2000090 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:46.581856 2000090 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[1,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":1}],[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}]],"current_cn_list":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"last_assign_compute_node_id":2,"version":1}
+I20240702 03:00:47.589531 2000090 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:47.589608 2000090 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[2,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536},{"id_":3,"ip_":"127.0.0.1","port_":55537}],"version_":2}],[1,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":1}],[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}]],"current_cn_list":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536},{"id_":3,"ip_":"127.0.0.1","port_":55537}],"last_assign_compute_node_id":3,"version":2}
+I20240702 03:00:47.795554 2000090 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:47.795634 2000090 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[3,{"infos_":[{"id_":3,"ip_":"127.0.0.1","port_":55537}],"version_":3}],[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}],[1,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":1}],[2,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536},{"id_":3,"ip_":"127.0.0.1","port_":55537}],"version_":2}]],"current_cn_list":[{"id_":3,"ip_":"127.0.0.1","port_":55537}],"last_assign_compute_node_id":3,"version":3}
+I20240702 03:00:48.197417 2000090 etcd_catalog_metadata_watcher.h:158] Update master compute node manager meta from etcd
+I20240702 03:00:48.197492 2000090 etcd_catalog_metadata_watcher.h:162] master_compute_node_manager_meta_str: {"cn_list_map":[[3,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":3}],[2,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536},{"id_":3,"ip_":"127.0.0.1","port_":55537}],"version_":2}],[1,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"version_":1}],[0,{"infos_":[{"id_":1,"ip_":"127.0.0.1","port_":55535}],"version_":0}]],"current_cn_list":[{"id_":1,"ip_":"127.0.0.1","port_":55535},{"id_":2,"ip_":"127.0.0.1","port_":55536}],"last_assign_compute_node_id":3,"version":3}
+==2000050==WARNING: ASan is ignoring requested __asan_handle_no_return: stack type: default top: 0x7f735acf0400; bottom 0x7f733f8d7000; size: 0x00001b419400 (457282560)
+False positive error reports may follow
+For details see https://github.com/google/sanitizers/issues/189
+E20240702 03:00:52.191125 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:00:53.192484 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:00:54.194521 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:00:55.196573 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:00:56.198632 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:00:57.200551 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:00:58.202520 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:00:59.204559 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:00.206643 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:01.208009 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:02.209717 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:03.211514 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:04.213506 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:05.215314 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:06.217379 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:07.218483 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:08.220602 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:09.222173 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:10.223986 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:11.226055 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:12.227566 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:13.229487 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:14.231096 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:15.233135 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:16.235126 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:17.236562 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:18.237783 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:19.239800 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:20.241503 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:21.242516 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:22.244542 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:23.246536 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:24.248519 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:25.250574 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:26.251686 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:27.253801 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:28.255542 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:29.257540 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:30.259708 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:31.261545 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:32.263615 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:33.265540 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:34.267669 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:35.269791 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:36.271993 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:37.274057 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:38.275374 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:39.276507 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:40.278614 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:41.280524 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:42.282538 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:43.284775 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:44.286571 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:45.288717 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:46.290016 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:47.292033 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:48.294061 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:49.295609 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:50.297740 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:51.299490 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:52.301515 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:53.303536 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:54.305528 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:55.307612 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:56.309716 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:57.311726 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:58.313529 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:01:59.315490 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:00.317519 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:01.319643 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:02.321713 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:03.323475 2000079 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:04.325258 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:05.326531 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:06.328472 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:07.330089 2000099 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:08.331231 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:09.332542 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:10.334489 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:11.336504 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:12.338655 2000080 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader
+E20240702 03:02:13.340654 2000082 meta_service.cc:2624] GetComputeNodeTopology() failed, got a NotLeaderException: [ElectionException] [NotLeaderException] current meta server is not leader

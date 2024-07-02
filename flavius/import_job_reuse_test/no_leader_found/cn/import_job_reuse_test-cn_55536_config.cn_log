@@ -1,0 +1,37 @@
+I20240702 03:00:45.877490 2000324 HiveConnector.cpp:66] Hive connector hive_connector created with maximum of 20000 cached file handles.
+I20240702 03:00:45.877955 2000324 HiveConnector.cpp:66] Hive connector localfs-hive created with maximum of 20000 cached file handles.
+I20240702 03:00:45.878207 2000324 HiveConnector.cpp:66] Hive connector s3-hive created with maximum of 20000 cached file handles.
+I20240702 03:00:45.899219 2000324 server.cpp:1127] Server[flavius::exec::TaskServiceImpl+flavius::exec::ComputeServiceImpl+flavius::server::GraphStorageServiceImpl2] is serving on port=55536.
+I20240702 03:00:45.899282 2000324 server.cpp:1130] Check out http://920f477ca690:55536 in web browser.
+I20240702 03:00:46.399793 2000324 flavius_worker.cc:65] Start Worker: MirrorComputeNodeManagerWorker, thread cnt: 1, interval: 200
+I20240702 03:00:46.402768 2000363 mirror_compute_node_manager.cc:58] >>>>>>>>>>>>>>>>>>>> Set my CN info: id 2 on 127.0.0.1:55536
+E20240702 03:02:14.142855 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:15.143056 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:16.143214 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:17.143374 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:18.143555 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:19.143738 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:20.143975 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:21.144153 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:22.144323 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:23.144483 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:24.144644 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:25.144816 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:26.144985 2000357 election_util.h:57] No leader found, retrying in 1000ms ans error msg: 
+E20240702 03:02:26.266335 2000363 mirror_compute_node_manager.cc:71] [ComputeNode] No message from MetaService after 12000 ms, quit cluster.
+==2000324==WARNING: ASan is ignoring requested __asan_handle_no_return: stack type: default top: 0x7fc6dedc01c0; bottom 0x7fc6d735f000; size: 0x000007a611c0 (128324032)
+False positive error reports may follow
+For details see https://github.com/google/sanitizers/issues/189
+server_ip: 127.0.0.1
+server_port: 55536
+idle_timeout_sec: 200
+default_parquet_path: /tmp/flavius/data
+meta_server_connect_ip: 127.0.0.1
+meta_server_connect_port: 55521
+log_dir: /tmp/flavius/log
+tmp_dir: /tmp/flavius/tmp
+fileio_type: kLocalFs
+enable_disk_cache: false
+disk_cache_size: 1000000
+disk_cache_path: /tmp/flavius/disk_cache
+enable_multi_meta_server: true

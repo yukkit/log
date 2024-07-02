@@ -1,0 +1,63 @@
+I20240702 03:00:36.744289 1999890 base_catalog.h:87] Restoring catalog from previous data
+I20240702 03:00:36.753595 1999890 base_catalog.h:848] No master compute node manager meta to restore
+I20240702 03:00:36.756949 1999890 flavius_worker.cc:65] Start Worker: MasterComputeManagerWorker, thread cnt: 1, interval: 200
+I20240702 03:00:36.761601 1999924 etcd_election_client.cc:100] 1204654488720212 StartElection 
+I20240702 03:00:36.761690 1999924 etcd_based_election_manager.h:50] electtion callback : start watch
+I20240702 03:00:36.761706 1999924 etcd_catalog_metadata_watcher.h:38] Start to watch metadata changes from etcd
+I20240702 03:00:36.768762 1999924 election_util.h:104] Start WatchLeaderSysTimeWorker
+I20240702 03:00:36.769053 1999924 flavius_worker.cc:65] Start Worker: WatchLeaderTimeWorker, thread cnt: 1, interval: 600
+E20240702 03:00:36.769096 1999924 election_util.h:221] UpdateLeaderSysTimeWorker is not running.
+I20240702 03:00:36.770793 1999924 etcd_election_client.cc:119] I am not leader, acquiring new lease
+E20240702 03:00:36.771447 1999918 election_util.h:148] WatchLeaderSysTimeWorker error: election: no leader
+I20240702 03:00:36.772112 1999924 etcd_election_client.cc:145] id: 127.0.0.1:55526 campaign for leader.
+I20240702 03:00:36.774610 1999924 etcd_election_client.cc:152] Election successfully, I am leader : 127.0.0.1:55526
+
+I20240702 03:00:36.774652 1999924 etcd_election_client.cc:126] Become the leader and perform leader initialization.
+I20240702 03:00:36.774663 1999924 etcd_based_election_manager.h:55] election callback : stop watch
+I20240702 03:00:36.774675 1999924 etcd_catalog_metadata_watcher.h:49] Stop to watch metadata changes from etcd
+I20240702 03:00:36.777526 1999924 meta_service.h:339] Start executing the recovery logic
+I20240702 03:00:36.777578 1999924 election_util.h:212] Start UpdateLeaderSysTimeWorker
+I20240702 03:00:36.777616 1999924 flavius_worker.cc:65] Start Worker: UpdateLeaderSysTimeWorker, thread cnt: 1, interval: 200
+I20240702 03:00:36.777630 1999924 election_util.h:116] Stop WatchLeaderSysTimeWorker
+I20240702 03:00:36.779192 1999920 election_util.h:234] UpdateLeaderSysTimeWorker work 0
+I20240702 03:00:36.782018 1999924 etcd_election_client.cc:44] Obverse value:127.0.0.1:55526
+I20240702 03:00:36.785070 1999890 server.cpp:1127] Server[flavius::server::MetaServiceImpl] is serving on port=55526.
+I20240702 03:00:36.785138 1999890 server.cpp:1130] Check out http://920f477ca690:55526 in web browser.
+W20240702 03:00:36.785526 1999890 controller.cpp:1514] SIGINT was installed with 1
+
+
+I20240702 03:00:45.573210 1999915 master_compute_node_manager.cc:229] [MetaServer::CNManager] Add CN success, new CNList: CNList: {
+version:0
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ]
+}
+I20240702 03:00:46.582244 1999934 master_compute_node_manager.cc:229] [MetaServer::CNManager] Add CN success, new CNList: CNList: {
+version:1
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ComputeNode: { id: 2 on 127.0.0.1:55536 }, ]
+}
+I20240702 03:00:47.590422 1999937 master_compute_node_manager.cc:229] [MetaServer::CNManager] Add CN success, new CNList: CNList: {
+version:2
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ComputeNode: { id: 2 on 127.0.0.1:55536 }, ComputeNode: { id: 3 on 127.0.0.1:55537 }, ]
+}
+E20240702 03:00:47.992359 1999918 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 2
+E20240702 03:00:47.992897 1999935 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 1
+E20240702 03:00:47.993373 1999920 master_compute_node_manager.cc:46] Send HearBeat to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Remain retry count]: 0
+E20240702 03:00:47.993790 1999936 master_compute_node_manager.cc:41] Finally Send HearBeat to ComputeNode: { id: 3 on 127.0.0.1:55537 } failed
+[Status]: CN_LIST_VERSION_MISMATCH
+[ErrorText]: 
+[Total retry count]: 3
+I20240702 03:00:48.197790 1999933 master_compute_node_manager.cc:285] [MetaServer::CNManager]Remove CNs success, new CNList: CNList: {
+version:3
+infos:[ComputeNode: { id: 1 on 127.0.0.1:55535 }, ComputeNode: { id: 2 on 127.0.0.1:55536 }, ]
+}
+I20240702 03:00:51.184753 1999936 etcd_election_client.cc:60] Current leader: 127.0.0.1:55526
+I20240702 03:00:51.185554 1999936 etcd_election_client.cc:73] Current time: 1204668912646791, 3 members in the cluster
+I20240702 03:00:51.186199 1999936 etcd_election_client.cc:60] Current leader: 127.0.0.1:55526
