@@ -1,0 +1,8 @@
+I20240704 03:34:34.906383 2033807 resource_pool.cc:97] Async data cache is enabled
+I20240704 03:34:34.993805 2033807 HiveConnector.cpp:66] Hive connector hive_connector created with maximum of 20000 cached file handles.
+I20240704 03:34:34.994133 2033807 HiveConnector.cpp:66] Hive connector localfs-hive created with maximum of 20000 cached file handles.
+I20240704 03:34:34.994323 2033807 HiveConnector.cpp:66] Hive connector s3-hive created with maximum of 20000 cached file handles.
+I20240704 03:34:35.025539 2033807 server.cpp:1127] Server[flavius::exec::TaskServiceImpl+flavius::exec::ComputeServiceImpl+flavius::server::GraphStorageServiceImpl2] is serving on port=55536.
+I20240704 03:34:35.025631 2033807 server.cpp:1130] Check out http://920f477ca690:55536 in web browser.
+I20240704 03:34:35.533084 2033807 flavius_worker.cc:65] Start Worker: MirrorComputeNodeManagerWorker, thread cnt: 1, interval: 200
+I20240704 03:34:35.547019 2033855 mirror_compute_node_manager.cc:58] >>>>>>>>>>>>>>>>>>>> Set my CN info: id 2 on 127.0.0.1:55536
