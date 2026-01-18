@@ -94,4 +94,100 @@ class ItemNode(BaseModel):
 - 小题的 ItemNode 的 index 是 大题的题号 + '-' + 小题的题号
 - 字符串请使用 r"
 
-下面是答案：
+下面是参考示例：
+
+```python
+import uuid
+from typing import List, Union
+
+from app.core.entity import (
+    Content,
+    ItemNode,
+    ItemNodeGroup,
+    MediaType,
+    TextContent,
+    UriContent,
+)
+
+
+def txt(text: str) -> List[Content]:
+    return [Content(inner=TextContent(text=text))]
+
+
+def img_txt(
+    text: str, uri: str, media_type: MediaType = MediaType.IMAGE_PNG
+) -> List[Content]:
+    return [
+        Content(inner=TextContent(text=text)),
+        Content(inner=UriContent(uri=uri, media_type=media_type)),
+    ]
+
+
+def node(
+    index: str,
+    title: Union[str, List[Content]],
+    children: list[Union["ItemNode", "ItemNodeGroup"]] = [],
+    node_type: str = "leaf",
+) -> ItemNode:
+    return ItemNode(
+        id=str(uuid.uuid4()),
+        type=node_type,
+        title=title,
+        index=index,
+        children=children,
+        answer=None,
+    )
+
+
+def group(
+    children: list[ItemNode],
+) -> ItemNodeGroup:
+    return ItemNodeGroup(root=children)
+
+
+question_set_id = "562f52dc-4a50-401d-b047-d7152f92effa"
+class_id = "dse_math_2022_p1_v2"
+name = "2022年香港中學文憑考試 數學 必修部分 試卷一"
+
+# --- 构建 raw_questions 数据 ---
+raw_questions = [
+    # --- 甲部 (1) ---
+    # Q1
+    node("1", r"化簡 $\frac{(a^{3}b^{-2})^{4}}{a^{-5}b^{6}}$，並以正指數表示答案。"),
+    # Q18
+    node(
+        "18",
+        img_txt(
+            r"圖2中，把三角形紙卡 $PQR$ 懸掛使得 $PQ$ 位於水平地面上。已知 $PQ=30 \text{ cm}$，$PR=25 \text{ cm}$ 及 $\angle QPR=95^{\circ}$。",
+            "https://raw.githubusercontent.com/yukkit/log/main/dse/math/2022/images/p1/18.png",
+        ),
+        node_type="internal",
+        children=[
+            group(
+                [
+                    node(
+                        "18-a",
+                        "求",
+                        node_type="internal",
+                        children=[
+                            group(
+                                [
+                                    node("18-a-i", "$QR$ 的長度，"),
+                                    node("18-a-ii", r"$\angle PQR$。"),
+                                ]
+                            )
+                        ],
+                    ),
+                    node(
+                        "18-b",
+                        r"設 $M$ 為 $QR$ 的中點。某工匠得知 $PR$ 與水平地面間的交角為 $70^{\circ}$。該工匠宣稱 $PM$ 與水平地面間的交角超過 $40^{\circ}$。該宣稱是否正確？試解釋你的答案。",
+                    ),
+                ]
+            )
+        ],
+    ),
+]
+
+```
+
+下面是试卷内容：
